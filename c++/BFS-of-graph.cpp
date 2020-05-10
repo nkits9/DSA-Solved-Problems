@@ -1,5 +1,4 @@
-void bfs(int s, vector<int> adj[], bool vis[], int N)
-{
+void bfs(int s, vector<int> adj[], bool vis[], int N) {
     queue<int> q;
     q.push(s);
     vis[s] = true;
