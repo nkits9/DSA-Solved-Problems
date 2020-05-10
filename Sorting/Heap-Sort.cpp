@@ -55,7 +55,7 @@ void printArray(int arr[], int n)
     cout << "\n"; 
 } 
   
-// Driver program 
+// Driver program. 
 int main() 
 { 
     IOS;
