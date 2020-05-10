@@ -42,7 +42,7 @@ void BellmanFord(struct Graph* graph, int src) {
         int v = graph->edge[i].dest;
         int weight = graph->edge[i].weight;
         if(dist[u] != INT_MAX && dist[u] + weight < dist[v])
-            printf("Graph contains negative weight cycle"); 
+            printf("Graph contains negative weighted cycle"); 
         return;
     }
     printArr(dist, V);
