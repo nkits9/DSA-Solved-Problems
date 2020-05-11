@@ -26,8 +26,7 @@ int noOfPairs(int a[], int n, int k, int start, int numOfElements, int &count) {
 
 int main() {
     IOS;
-    int t; 
-    cin >> t;
+    int t; cin >> t;
     while(t-- > 0) {
         int n, k; 
         cin >> n >> k;
