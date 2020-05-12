@@ -9,8 +9,7 @@ void dijkstra(vector<vector<int>> graph, int src, int V)
     pq.push({0, src});
     
     while(!pq.empty()) {
-        pii p = pq.top(); 
-        pq.pop();
+        pii p = pq.top(); pq.pop();
         int u = p.second;
         if(vis[u])  continue;
         vis[u] = true;
