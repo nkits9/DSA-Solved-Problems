@@ -4,10 +4,8 @@
 
 # GeeksForGeeks-Solved-Problems
 
-I have solved quite number of problems from GeeksOfGeeks on several topics, the solution to problems are highly optimised and concise.
-
+I have solved quite number of problems from GeeksOfGeeks and in other platforms, in this repository i will be sharing solution to some important question to build command over Data Structure and Algorithm, the solution to problems are highly optimised and concise.
 This repository can be used as help for those who are new to competitive programming.
-
 The code is merely a snippet (as solved on GFG) & hence is not executable in a c++ compiler.
 
 ## Topic-Wise
