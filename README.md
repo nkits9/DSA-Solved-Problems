@@ -4,10 +4,8 @@
 
 # GeeksForGeeks-Solved-Problems
 
-I have solved quite number of problems from GeeksOfGeeks on several topics, the solution to problems are highly optimised and concise.
-
-This repository can be used as help for those who are new to competitive programming.
-
+I have solved quite number of problems from GeeksOfGeeks and in other platforms, in this repository i will be sharing solution to some important question to build command over Data Structure and Algorithm, the solution to problems are highly optimised and concise. 
+This repository can be used as help for those who are new to competitive programming. 
 The code is merely a snippet (as solved on GFG) & hence is not executable in a c++ compiler.
 
 ## Topic-Wise
@@ -30,6 +28,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Array
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1| [Count pairs with given sum](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-pairs-with-given-sum.cpp) |  |  | Easy | |
 
 ## String
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
@@ -69,25 +68,24 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Graph
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [BFS of graph](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/BFS-of-graph.cpp) | _O(E + V)_ | _O(V)_  | Basic | |
-2 | [Count pairs with given sum](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-pairs-with-given-sum.cpp) |  |  | Easy | |
+1 | [Print adjacency list](https://practice.geeksforgeeks.org/problems/print-adjacency-list/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Print-adjacency-list.cpp) | |  | Easy | |
+2 | [BFS of graph](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/BFS-of-graph.cpp) | _O(E + V)_ | _O(V)_  | Easy | |
 3 | [Count the paths](https://practice.geeksforgeeks.org/problems/count-the-paths/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-the-paths.cpp) |  |  | Easy | |
 4 | [DFS of graph](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/DFS-on-graph.cpp) |  | | Easy | |
-5 | [Detect cycle in a directed graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-cycle-in-a-directed-graph.cpp) | |   | Medium | |
-6 | [Detect cycle in an undirected graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-cycle-in-an-undirected-graph.cpp) |  |  | Medium | |
-7 | [Find the number of islands](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-the-number-of-islands.cpp) |  |  | Medium | |
-8 | [Find whether path exist](https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0)| [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-the-number-of-islands.cpp) | |  | Medium | |
-9 | [Implementing Dijkstra](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implementing-Dijkstra.cpp) | |  | Medium | |
-10 | [Mother Vertex](https://practice.geeksforgeeks.org/problems/mother-vertex/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Mother-Vertex.cpp) | |  | Easy | |
-11 | [Negative weight cycle](https://practice.geeksforgeeks.org/problems/negative-weight-cycle/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Negative-Weight-Cycle.cpp) | |  | Medium | |
-12 | [Print adjacency list](https://practice.geeksforgeeks.org/problems/print-adjacency-list/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Print-adjacency-list.cpp) | |  | Easy | |
-14 | [Shortest Source to Destination Path](https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Shortest-Source-to-Destination-Path.cpp) | |  | Medium | |
-15 | [Knight Walk](https://practice.geeksforgeeks.org/problems/knight-walk/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Knight-Walk.cpp) | |  | Medium | |
-16 | [Steps by Knight](https://practice.geeksforgeeks.org/problems/steps-by-knight/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Steps-by-Knight.cpp) | |  | Medium | |
-17 | [Strongly Connected Components (Kosaraju's Algo)](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Strongly-Connected-Components.cpp) | |  | Medium | |
-18 | [Topological sort](https://practice.geeksforgeeks.org/problems/topological-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Topological-Sort.cpp) | |  | Medium | |
-18 | [Unit Area of largest region of 1's](https://practice.geeksforgeeks.org/problems/length-of-largest-region-of-1s/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unit-Area-of-largest-region-of-1's.cpp) | |  | Medium | |
-19 | [Villain Con](https://practice.geeksforgeeks.org/problems/villain-con/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Villain-Con.cpp) | |  | Medium | |
+5 | [Mother Vertex](https://practice.geeksforgeeks.org/problems/mother-vertex/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Mother-Vertex.cpp) | |  | Easy | |
+6 | [Villain Con](https://practice.geeksforgeeks.org/problems/villain-con/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Villain-Con.cpp) | |  | Easy | |
+7 | [Detect cycle in a directed graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-cycle-in-a-directed-graph.cpp) | |   | Medium | |
+8 | [Detect cycle in an undirected graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-cycle-in-an-undirected-graph.cpp) |  |  | Medium | |
+9 | [Find the number of islands](https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-the-number-of-islands.cpp) |  |  | Medium | |
+10 | [Find whether path exist](https://practice.geeksforgeeks.org/problems/find-whether-path-exist/0)| [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-the-number-of-islands.cpp) | |  | Medium | |
+11 | [Implementing Dijkstra](https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implementing-Dijkstra.cpp) | |  | Medium | |
+12 | [Negative weight cycle](https://practice.geeksforgeeks.org/problems/negative-weight-cycle/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Negative-Weight-Cycle.cpp) | |  | Medium | |
+13 | [Shortest Source to Destination Path](https://practice.geeksforgeeks.org/problems/shortest-source-to-destination-path/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Shortest-Source-to-Destination-Path.cpp) | |  | Medium | |
+14 | [Knight Walk](https://practice.geeksforgeeks.org/problems/knight-walk/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Knight-Walk.cpp) | |  | Medium | |
+15 | [Strongly Connected Components (Kosaraju's Algo)](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Strongly-Connected-Components.cpp) | |  | Medium | |
+16 | [Topological sort](https://practice.geeksforgeeks.org/problems/topological-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Topological-Sort.cpp) | |  | Medium | |
+17 | [Unit Area of largest region of 1's](https://practice.geeksforgeeks.org/problems/length-of-largest-region-of-1s/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unit-Area-of-largest-region-of-1's.cpp) | |  | Medium | |
+
 
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
