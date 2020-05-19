@@ -85,7 +85,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 15 | [Strongly Connected Components (Kosaraju's Algo)](https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Strongly-Connected-Components.cpp) | |  | Medium | |
 16 | [Topological sort](https://practice.geeksforgeeks.org/problems/topological-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Topological-Sort.cpp) | |  | Medium | |
 17 | [Unit Area of largest region of 1's](https://practice.geeksforgeeks.org/problems/length-of-largest-region-of-1s/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unit-Area-of-largest-region-of-1's.cpp) | |  | Medium | |
-
+18 | [Rotten Oranges](https://practice.geeksforgeeks.org/problems/rotten-oranges/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Rotten-Oranges.cpp) | _O(n*m)_ | _O(n*m)_ | Medium | |
+19 | [Snake and Ladder Problem](https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Snake-and-Ladder-Problem.cpp) | _O(N)_ |  _O(N)_ | Medium | |
 
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
