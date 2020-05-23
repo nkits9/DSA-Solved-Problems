@@ -89,6 +89,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 19 | [Snake and Ladder Problem](https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Snake-and-Ladder-Problem.cpp) | _O(N)_ |  _O(N)_ | Medium | |
 20 | [Distance of nearest cell having 1](https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Distance-of-nearest-cell-having-1.cpp) | _O(n*m)_ |  _O(n*m)_ | Medium | |
 21 | [X Total Shapes](https://practice.geeksforgeeks.org/problems/x-total-shapes/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/X-Total-Shapes.cpp) | _O(n*m)_ |  _O(n*m)_ | Medium | |
+21 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Floyd-Warshall.cpp) | _O(V^3)_ |  _O(V^2)_  | Medium | |
+
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
