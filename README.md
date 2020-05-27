@@ -69,9 +69,9 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Print adjacency list](https://practice.geeksforgeeks.org/problems/print-adjacency-list/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Print-adjacency-list.cpp) | |  | Easy | |
-2 | [BFS of graph](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/BFS-of-graph.cpp) | _O(E + V)_ | _O(V)_ | Easy | |
+2 | [BFS of graph](https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/BFS-of-graph.cpp) | _O(V + E)_ | _O(V + E)_ | Easy | |
 3 | [Count the paths](https://practice.geeksforgeeks.org/problems/count-the-paths/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-the-paths.cpp) |  |  | Easy | |
-4 | [DFS of graph](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/DFS-on-graph.cpp) | _O(E + V)_  | _O(V)_ | Easy | |
+4 | [DFS of graph](https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/DFS-on-graph.cpp) | _O(V + E)_  | _O(V + E)_ | Easy | |
 5 | [Mother Vertex](https://practice.geeksforgeeks.org/problems/mother-vertex/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Mother-Vertex.cpp) | |  | Easy | |
 6 | [Villain Con](https://practice.geeksforgeeks.org/problems/villain-con/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Villain-Con.cpp) | |  | Easy | |
 7 | [Detect cycle in a directed graph](https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-cycle-in-a-directed-graph.cpp) | |   | Medium | |
@@ -89,7 +89,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 19 | [Snake and Ladder Problem](https://practice.geeksforgeeks.org/problems/snake-and-ladder-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Snake-and-Ladder-Problem.cpp) | _O(N)_ |  _O(N)_ | Medium | |
 20 | [Distance of nearest cell having 1](https://practice.geeksforgeeks.org/problems/distance-of-nearest-cell-having-1/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Distance-of-nearest-cell-having-1.cpp) | _O(n*m)_ |  _O(n*m)_ | Medium | |
 21 | [X Total Shapes](https://practice.geeksforgeeks.org/problems/x-total-shapes/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/X-Total-Shapes.cpp) | _O(n*m)_ |  _O(n*m)_ | Medium | |
-21 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Floyd-Warshall.cpp) | _O(V^3)_ |  _O(V^2)_  | Medium | |
+22 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Floyd-Warshall.cpp) | _O(V^3)_ |  _O(V^2)_  | Medium | |
+23 | [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Spanning-Tree.cpp) | _O(V^2)_ |  _O(V^2)_  | Medium | |
+24 | [Minimum Cost Path](https://practice.geeksforgeeks.org/problems/minimum-cost-path/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Cost-Path.cpp) | _O(VLogV)_
+(V = row*col)|  _O(V)_  | Hard | |
+
 
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
