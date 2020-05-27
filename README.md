@@ -91,7 +91,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 21 | [X Total Shapes](https://practice.geeksforgeeks.org/problems/x-total-shapes/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/X-Total-Shapes.cpp) | _O(n*m)_ |  _O(n*m)_ | Medium | |
 22 | [Floyd Warshall](https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Floyd-Warshall.cpp) | _O(V^3)_ |  _O(V^2)_  | Medium | |
 23 | [Minimum Spanning Tree](https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Spanning-Tree.cpp) | _O(V^2)_ |  _O(V^2)_  | Medium | |
-24 | [Minimum Cost Path](https://practice.geeksforgeeks.org/problems/minimum-cost-path/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Cost-Path.cpp) | _O(VLogV)_(V = row*col)|  _O(V)_  | Hard | |
+24 | [Minimum Cost Path](https://practice.geeksforgeeks.org/problems/minimum-cost-path/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Cost-Path.cpp) | _O(VLogV)_|  _O(V)_  | Hard | |
 
 
 ## Greedy
