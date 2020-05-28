@@ -97,6 +97,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1 | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Platforms.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
 
 ## Divide and Conquer
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
