@@ -97,10 +97,12 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Platforms.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
-2 | [Minimize the heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimize-the-heights.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
-3 | [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Activity-Selection.cpp) | _O(nlogn)_ |  _O(n)_  | Easy | |
-4 | [Largest number possible](https://practice.geeksforgeeks.org/problems/largest-number-possible/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-number-possible.cpp) | _O(n)_ |  _O(n)_  | Easy | |
+1 | [Coin Piles](https://practice.geeksforgeeks.org/problems/coin-piles/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Coin-Piles.cpp) | _O(n^2)_ |  _O(n)_  | Medium | |
+2 | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Platforms.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
+3 | [Minimize the heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimize-the-heights.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
+4 | [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Activity-Selection.cpp) | _O(nlogn)_ |  _O(n)_  | Easy | |
+5 | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/N-meetings-in-one-room.cpp) | _O(n^2)_ |  _O(n)_  | Easy | |
+6 | [Largest number possible](https://practice.geeksforgeeks.org/problems/largest-number-possible/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-number-possible.cpp) | _O(n)_ |  _O(n)_  | Easy | |
 
 
 ## Divide and Conquer
