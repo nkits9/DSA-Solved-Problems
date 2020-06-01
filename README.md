@@ -105,7 +105,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 6 | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/N-meetings-in-one-room.cpp) | _O(n^2)_ |  _O(n)_  | Easy | |
 7 | [Largest number possible](https://practice.geeksforgeeks.org/problems/largest-number-possible/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-number-possible.cpp) | _O(n)_ |  _O(n)_  | Easy | |
 8 | [Fact Digit Sum](https://practice.geeksforgeeks.org/problems/fact-digit-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Fact-Digit-Sum.cpp) | _O(n)_ |  _O(n)_  | Easy | |
-9 | [Raju and coins](https://practice.geeksforgeeks.org/problems/raju-and-coins/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Raju-and-coins.cpp) | _O(k)_ |  _O(n)_  | Easy | |
+9 | [Raju and coins](https://practice.geeksforgeeks.org/problems/raju-and-coins/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Raju-and-coins.cpp) | _O(k)_ | _O(n)_ | Easy | |
 
 
 ## Divide and Conquer
