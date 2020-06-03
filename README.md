@@ -97,15 +97,16 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Greedy
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [Coin Piles](https://practice.geeksforgeeks.org/problems/coin-piles/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Coin-Piles.cpp) | _O(n^2)_ |  _O(n)_  | Medium | |
-2 | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Platforms.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
-3 | [Minimize the heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimize-the-heights.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
-4 | [Job Sequencing Problem](https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Job-Sequencing-Problem.cpp) | _O(n^2)_ |  _O(n)_  | Medium | |
-5 | [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Activity-Selection.cpp) | _O(nlogn)_ |  _O(n)_  | Easy | |
-6 | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/N-meetings-in-one-room.cpp) | _O(n^2)_ |  _O(n)_  | Easy | |
-7 | [Largest number possible](https://practice.geeksforgeeks.org/problems/largest-number-possible/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-number-possible.cpp) | _O(n)_ |  _O(n)_  | Easy | |
-8 | [Fact Digit Sum](https://practice.geeksforgeeks.org/problems/fact-digit-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Fact-Digit-Sum.cpp) | _O(n)_ |  _O(n)_  | Easy | |
-9 | [Raju and coins](https://practice.geeksforgeeks.org/problems/raju-and-coins/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Raju-and-coins.cpp) | _O(k)_ | _O(n)_ | Easy | |
+1 | [Water Connection Problem (Important)](https://practice.geeksforgeeks.org/problems/water-connection-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Water-Connection-Problem.cpp) | _O(n)_ |  _O(n)_  | Medium | |
+2 | [Coin Piles](https://practice.geeksforgeeks.org/problems/coin-piles/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Coin-Piles.cpp) | _O(n^2)_ |  _O(n)_  | Medium | |
+3 | [Minimum Platforms](https://practice.geeksforgeeks.org/problems/minimum-platforms/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Platforms.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
+4 | [Minimize the heights](https://practice.geeksforgeeks.org/problems/minimize-the-heights/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimize-the-heights.cpp) | _O(nlogn)_ |  _O(n)_  | Medium | |
+5 | [Job Sequencing Problem](https://practice.geeksforgeeks.org/problems/job-sequencing-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Job-Sequencing-Problem.cpp) | _O(n^2)_ |  _O(n)_  | Medium | |
+6 | [Activity Selection](https://practice.geeksforgeeks.org/problems/activity-selection/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Activity-Selection.cpp) | _O(nlogn)_ |  _O(n)_  | Easy | |
+7 | [N meetings in one room](https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/N-meetings-in-one-room.cpp) | _O(n^2)_ |  _O(n)_  | Easy | |
+8 | [Largest number possible](https://practice.geeksforgeeks.org/problems/largest-number-possible/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-number-possible.cpp) | _O(n)_ |  _O(n)_  | Easy | |
+9 | [Fact Digit Sum](https://practice.geeksforgeeks.org/problems/fact-digit-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Fact-Digit-Sum.cpp) | _O(n)_ |  _O(n)_  | Easy | |
+10 | [Raju and coins](https://practice.geeksforgeeks.org/problems/raju-and-coins/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Raju-and-coins.cpp) | _O(k)_ | _O(n)_ | Easy | |
 
 
 ## Divide and Conquer
