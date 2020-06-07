@@ -55,7 +55,9 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Heap
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Heap-Sort.cpp) | |  | Easy | |
+1 | [Huffman Encoding](https://practice.geeksforgeeks.org/problems/huffman-encoding/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Encoding.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+2 | [Huffman Decoding](https://practice.geeksforgeeks.org/problems/huffman-decoding/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Decoding.cpp) | _O(n)_ | _O(n)_  | Easy | |
+3 | [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Heap-Sort.cpp) | |  | Easy | |
 
 ## Recursion
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
