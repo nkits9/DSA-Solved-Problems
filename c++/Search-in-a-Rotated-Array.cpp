@@ -22,11 +22,21 @@ ll binarySearch(ll *a, ll l, ll r, ll k) {
     return -1;
 }
 
-ll findPivot(int *a, ll n) {
-    ll l = 0, r = n-1, mid;
+ll findPivot(ll *a, ll l, ll r) {
     while(l <= r) {
-        
+        ll m = (l + r)/2; 
+        if (m < r && a[m] > a[m+1]) 
+            return m; 
+          
+        if (m > l && a[m] < a[m-1]) 
+            return (m-1); 
+          
+        if (a[l] >= a[m]) 
+            return findPivot(a, l, m-1); 
+          
+        return findPivot(a, m+1, r);
     }
+    return -1;
 }
 
 int main() {
@@ -40,7 +50,7 @@ int main() {
         }
         ll k; cin >> k;
 
-        ll pivot = findPivot(arr, n);
+        ll pivot = findPivot(arr, 0, n-1);
         if(pivot == -1) {
             cout << binarySearch(arr, 0, n-1, k) << endl;
         } else {
