@@ -41,7 +41,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Stack
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Top-View-of-Binary-Tree.cpp) | |  | Medium | |
+1 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
 
 ## Queue
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
@@ -121,14 +121,14 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 2 | [Merge Sort](https://practice.geeksforgeeks.org/problems/merge-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/Sorting/Merge-Sort.cpp) | _O(nlogn)_ | _O(n)_ | Easy | |
 3 | [Quick Sort](https://practice.geeksforgeeks.org/problems/quick-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/Sorting/Quick-Sort.cpp) | _O(nlogn)_ | _O(n)_ | Easy | |
 4 | [Search in a Rotated Array](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Search-in-a-Rotated-Array.cpp) | _O(logn)_ | _O(n)_ | Easy | |
-5 | [Modular Exponentiation for large numbers](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Search-in-a-Rotated-Array.cpp) | _O(logn)_ | _O(n)_ | Medium | |
-6 | [The Nth Fibonnaci](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Search-in-a-Rotated-Array.cpp) | _O(logn)_ | _O(n)_ | Easy | |
+5 | [Modular Exponentiation for large numbers](https://practice.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Modular-Exponentiation-for-large-numbers.cpp) | _O(logn)_ | _O(n)_ | Medium | |
+6 | [The Nth Fibonnaci](https://practice.geeksforgeeks.org/problems/the-nth-fibonnaci/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Nth-Fibonnaci.cpp) | _O(logn)_ | _O(n)_ | Easy | |
 
 
 
 ## Backtracking
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|q
+|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 
 ## Dynamic Programming
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
