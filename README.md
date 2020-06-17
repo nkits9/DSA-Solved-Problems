@@ -129,6 +129,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Backtracking
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1 | [Combination Sum](https://practice.geeksforgeeks.org/problems/combination-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum.cpp) |  |  | Medium | |
+2 | [Combination Sum - 2](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum-2.cpp) |  |  | Medium | |
 
 ## Dynamic Programming
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
