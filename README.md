@@ -37,6 +37,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Linked List
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1 | [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-Loop-in-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
+2 | [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
+3 | [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Finding-middle-element-in-a-linked-list.cpp) |_O(n)_ | _O(n)_ | Basic | |
+4 | [Check if Linked List is Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-if-Linked-List-is-Palindrome.cpp) |_O(n)_ | _O(n)_ | Easy | |
+5 | [Nth node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Nth-node-from-end-of-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
 
 ## Stack
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
@@ -123,6 +128,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 4 | [Search in a Rotated Array](https://practice.geeksforgeeks.org/problems/search-in-a-rotated-array/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Search-in-a-Rotated-Array.cpp) | _O(logn)_ | _O(n)_ | Easy | |
 5 | [Modular Exponentiation for large numbers](https://practice.geeksforgeeks.org/problems/modular-exponentiation-for-large-numbers/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Modular-Exponentiation-for-large-numbers.cpp) | _O(logn)_ | _O(n)_ | Medium | |
 6 | [The Nth Fibonnaci](https://practice.geeksforgeeks.org/problems/the-nth-fibonnaci/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Nth-Fibonnaci.cpp) | _O(logn)_ | _O(n)_ | Easy | |
+7 | [Largest-prime-factor](https://practice.geeksforgeeks.org/problems/largest-prime-factor/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-prime-factor.cpp) |  |  | Medium | |
 
 
 
