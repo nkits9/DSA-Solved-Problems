@@ -30,23 +30,39 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1| [Count pairs with given sum](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-pairs-with-given-sum.cpp) |  |  | Easy | |
 
+
+
 ## String
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 
+
+
 ## Linked List
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-Loop-in-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
-2 | [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
-3 | [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Finding-middle-element-in-a-linked-list.cpp) |_O(n)_ | _O(n)_ | Basic | |
-4 | [Check if Linked List is Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-if-Linked-List-is-Palindrome.cpp) |_O(n)_ | _O(n)_ | Easy | |
-5 | [Nth node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Nth-node-from-end-of-linked-list.cpp) |_O(n)_ | _O(n)_ | Easy | |
+1 | [Remove loop in Linked List](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Remove-loop-in-Linked-List.cpp) |_O(n)_ | _O(1)_ | Medium | |
+2 | [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-without-head-pointer.cpp) |_O(n)_ | _O(1)_ | Medium | |
+
+3 | [Intersection Point in Y Shapped Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Intersection-Point-in-Y-Shapped-Linked-Listscpp) |_O(n)_ | _O(1)_ | Medium | |
+4 | [Reverse a Linked List in groups of given size](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-Linked-List-in-groups-of-given-size.cpp) |_O(n)_ | _O(1)_ | Medium | |
+5 | [*Add two numbers represented by linked lists](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Add-two-numbers-represented-by-linked-lists.cpp) |_O(n)_ | _O(1)_ | Easy | |
+6 | [Pairwise swap elements of a linked list](https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Pairwise-swap-elements-of-a-linked-list.cpp) |_O(n)_ | _O(1)_ | Easy | |
+7 | [Merge two sorted linked lists](https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-two-sorted-linked-lists.cpp) |_O(n)_ | _O(1)_ | Easy | |
+8 | [Rotate a Linked List](https://practice.geeksforgeeks.org/problems/rotate-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Rotate-a-Linked-List.cpp) |_O(n)_ | _O(1)_ | Easy | |
+9 | [Check if Linked List is Palindrome](https://practice.geeksforgeeks.org/problems/check-if-linked-list-is-pallindrome/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-if-Linked-List-is-Palindrome.cpp) |_O(n)_ | _O(n)_ | Easy | |
+10 | [Nth node from end of linked list](https://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Nth-node-from-end-of-linked-list.cpp) |_O(n)_ | _O(1)_ | Easy | |
+11 | [Detect Loop in linked list](https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Detect-Loop-in-linked-list.cpp) |_O(n)_ | _O(1)_ | Easy | |
+12 | [Reverse a linked list](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-linked-list.cpp) |_O(n)_ | _O(1)_ | Easy | |
+13 | [Finding middle element in a linked list](https://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Finding-middle-element-in-a-linked-list.cpp) |_O(n)_ | _O(1)_ | Basic | |
+
+
 
 ## Stack
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
+
 
 ## Queue
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
