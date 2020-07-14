@@ -68,13 +68,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 3 | [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Circular-tour.cpp) |_O(n)_ | _O(n)_ | Medium | |
 4 | [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Stack-using-two-queues.cpp) |_O(n)_ | _O(1)_ | Easy | |
 5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
-5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
-5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
-
-5 | [Implement stack using array](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1)
-[Implement Queue using array](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1)|   [1. Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-stack-using-array.cpp) 
-[2. Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-array.cpp)
-|_O(1)_ | _O(1)_ | Basic | |
+6 | [Implement two stacks in an array](https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-two-stacks-in-an-array.cpp) |_O(1)_ | _O(1)_ | Easy | |
+7 | [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
+8 | [Implement Stack using Linked List](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Stack-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
+9 | [Implement Queue using array](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
+10 | [Implement stack using array](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-stack-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
 
 
 
