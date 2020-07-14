@@ -12,8 +12,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 * [Array](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Array)
 * [String](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#String)
 * [Linked List](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Linked-List)
-* [Stack](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Stack)
-* [Queue](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Queue)
+* [Stack and Queue](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Stack)
 * [Tree](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Tree)
 * [Heap](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Heap)
 * [Recursion](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Recursion)
@@ -45,8 +44,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 2 | [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-without-head-pointer.cpp) |_O(n)_ | _O(1)_ | Medium | |
 3 | [Intersection Point in Y Shapped Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Intersection-Point-in-Y-Shapped-Linked-Listscpp) |_O(n)_ | _O(1)_ | Medium | |
 4 | [Reverse a Linked List in groups of given size](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-Linked-List-in-groups-of-given-size.cpp) |_O(n)_ | _O(1)_ | Medium | |
-5 | [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Flattening-a-Linked-List.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
-6 | [*Merge Sort for Linked Lists](https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-sort-for-linked-list.cpp) |_O(nlogn)_ | _O(1)_ | Easy | |
+5 | [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Flattening-a-Linked-List.cpp) |_O(m*n)_ | _O(m+n)_ | Medium | |
+6 | [*Merge Sort for Linked Lists](https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-sort-for-linked-list.cpp) |_O(nlogn)_ | _O(n)_ | Easy | |
 7 | [*Sort Linked List of 0s, 1s, and 2s](https://practice.geeksforgeeks.org/problems/given-a-linked-list-of-0s-1s-and-2s-sort-it/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sort-Linked-List-of-0s-1s-2s.cpp) |_O(n)_ | _O(1)_ | Easy | |
 8| [*Add two numbers represented by linked lists](https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Add-two-numbers-represented-by-linked-lists.cpp) |_O(n)_ | _O(1)_ | Easy | |
 9 | [Pairwise swap elements of a linked list](https://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Pairwise-swap-elements-of-a-linked-list.cpp) |_O(n)_ | _O(1)_ | Easy | |
@@ -61,15 +60,23 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 
 
 
-## Stack
+## Stack and Queue
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
+2 | [*Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Get-minimum-element-from-stack.cpp) |_O(1)_ | _O(1)_ | Medium | |
+3 | [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Circular-tour.cpp) |_O(n)_ | _O(n)_ | Medium | |
+4 | [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Stack-using-two-queues.cpp) |_O(n)_ | _O(1)_ | Easy | |
+5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
+5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
+5 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
+
+5 | [Implement stack using array](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1)
+[Implement Queue using array](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1)|   [1. Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-stack-using-array.cpp) 
+[2. Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-array.cpp)
+|_O(1)_ | _O(1)_ | Basic | |
 
 
-## Queue
-|  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
-|-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 
 ## Tree
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
