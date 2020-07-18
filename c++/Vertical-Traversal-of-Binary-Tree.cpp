@@ -1,5 +1,4 @@
-void verticalOrder(Node *root)
-{
+vector<int> verticalOrder(Node *root) {
     map<int,vector <int>> m;
     queue<pair<Node*,int>> q;
     
@@ -18,10 +17,11 @@ void verticalOrder(Node *root)
         q.pop();
     }
     
+    vector<int> res;
     for(auto it = m.begin(); it != m.end(); it++) {
         vector<int> v = it->second;
         for(int i=0; i<v.size(); i++) {
-            printf("%d ", v[i]);
+            res.push_back(v[i]);
         }
     }
 }
