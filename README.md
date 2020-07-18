@@ -88,6 +88,15 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Top-View-of-Binary-Tree.cpp) | |  | Medium | |
 2 | [Vertical Traversal of Binary Tree](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Vertical-Traversal-of-Binary-Tree.cpp) | |  | Medium | |
+3 | [Connect Nodes at Same Level](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Connect-Nodes-at-Same-Level.cpp) | |  | Medium | |
+4 | [Mirror Tree](https://practice.geeksforgeeks.org/problems/mirror-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Mirror-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
+5 | [Reverse Level Order Traversal](https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-Level-Order-Traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
+6 | [Level order traversal in spiral form](https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-in-spiral-form.cpp) | _O(n)_ | _O(n)_  | Easy | |
+7 | [Level order traversal Line by Line](https://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-Line-by-Line.cpp) | _O(n)_ | _O(n)_  | Easy | |
+8 | [Level order traversal](https://practice.geeksforgeeks.org/problems/level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
+9 | [Height of Binary Tree, Number of Leaves](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Height-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Basic | |
+10 | [Preorder, Inorder and Postorder Traverasal](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&difficulty%5B%5D=-1&page=1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Preorder-Inorder-Postorder-Traverasal.cpp) | _O(n)_ | _O(n)_  | Basic | |
+
 
 ## Heap
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
@@ -100,9 +109,12 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 
+
+
 ## Hashing
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+1 | [Relative Sorting](https://practice.geeksforgeeks.org/problems/relative-sorting/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Relative-Sorting.cpp) | _O(n)_ | _O(n)_  | Medium | |
 
 ## Graph
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
