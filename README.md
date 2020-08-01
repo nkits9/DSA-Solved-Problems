@@ -112,9 +112,18 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 ## Heap
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
-1 | [*Huffman Encoding (Important) ](https://practice.geeksforgeeks.org/problems/huffman-encoding/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Encoding.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
-2 | [Huffman Decoding](https://practice.geeksforgeeks.org/problems/huffman-decoding/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Decoding.cpp) | _O(n)_ | _O(n)_  | Easy | |
-3 | [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Heap-Sort.cpp) | |  | Easy | |
+1 | [Find median in a stream](https://practice.geeksforgeeks.org/problems/find-median-in-a-stream/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-median-in-a-stream.cpp) | _O(nlogn)_ | _O(n)_  | Hard | |
+2 | [*Huffman Encoding ](https://practice.geeksforgeeks.org/problems/huffman-encoding/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Encoding.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+3 | [*Merge k Sorted Arrays ](https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-k-Sorted-Arrays.cpp) |  _O(nklogk)_ | _O(n)_  | Medium | |
+4 | [*Merge K sorted linked lists](https://practice.geeksforgeeks.org/problems/merge-k-sorted-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-K-sorted-linked-lists.cpp) | _O(nklogk)_ | _O(n)_  | Medium | |
+5 | [Minimum Cost of ropes](https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Minimum-Cost-of-ropes.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+6 | [Rearrange characters](https://practice.geeksforgeeks.org/problems/rearrange-characters/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Rearrange-characters.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+7 | [Kth largest element in a stream](https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Kth-largest-element-in-a-stream.cpp) | _O(nlogk)_ | _O(n)_  | Medium | |
+8 | [*Is Binary Tree Heap](https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Is-Binary-Tree-Heap.cpp) |_O(n)_ | _O(n)_  | Easy | |
+9 | [Binary Heap Operations](https://practice.geeksforgeeks.org/problems/operations-on-binary-min-heap/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Binary-Heap-Operations.cpp) |_O(Q*H )_ | _O(1)_  | Easy | |
+10 | [Heap Sort](https://practice.geeksforgeeks.org/problems/heap-sort/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Heap-Sort.cpp) | _O(nlogn)_ | _O(1)_ | Easy | |
+11 | [Huffman Decoding](https://practice.geeksforgeeks.org/problems/huffman-decoding/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Huffman-Decoding.cpp) | _O(n)_ | _O(n)_  | Easy | |
+
 
 ## Recursion
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
