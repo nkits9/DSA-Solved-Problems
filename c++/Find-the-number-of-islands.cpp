@@ -1,4 +1,4 @@
-void DFSUtil(int i, int j, int &N, int &M, int &noOfIsland, vector<int> *A, vector<vector<bool>> &vis) {
+void DFSUtil(int i, int j, int &N, int &M, vector<int> *A, vector<vector<bool>> &vis) {
     int row[] = {0, 1, 1, 1, 0, -1, -1, -1};
     int col[] = {1, 1, 0, -1, -1, -1, 0, 1};
     vis[i][j] = true;
@@ -8,7 +8,7 @@ void DFSUtil(int i, int j, int &N, int &M, int &noOfIsland, vector<int> *A, vect
         int y = j + col[k];
         if(x < N && x >= 0 && y < M && y >= 0) {
             if(!vis[x][y] && A[i][j])
-                DFSUtil(x, y, N, M, noOfIsland, A, vis);
+                DFSUtil(x, y, N, M, A, vis);
         }
     }
 }
@@ -19,7 +19,7 @@ int findIslands(vector<int> A[], int N, int M) {
     for(int i=0; i<N; i++) {
         for(int j=0; j<M; j++) {
             if(!vis[i][j] && A[i][j]) {
-                DFSUtil(i, j, N, M, noOfIsland, A, vis);
+                DFSUtil(i, j, N, M, A, vis);
                 noOfIsland++;
             }
         }

@@ -1,27 +1,26 @@
-void topo(vector<bool> &vis, vector<int> adj[], int x, stack<int> &s) {
+void tSort(int x, vector<int> adj[], bool *vis, stack<int> &s) {
     vis[x] = true;
-    for(int i=0; i<adj[x].size(); i++) {
-        if(!vis[adj[x][i]])
-            topo(vis, adj, adj[x][i], s);
+    for(int v : adj[x]) {
+        if(!vis[v]) {
+            tSort(v, adj, vis, s);
+        }
     }
     s.push(x);
 }
 
-int* topoSort(int V, vector<int> adj[]) {
-    vector<bool> vis(V, false);
+vector<int> topoSort(int V, vector<int> adj[]) {
     stack<int> s;
+    bool vis[V] = {false};
     for(int i=0; i<V; i++) {
         if(!vis[i]) {
-            topo(vis, adj, i, s);
+            tSort(i, adj, vis, s);
         }
     }
-    int arr[V];
-    int i=0;
+    vector<int> res;
     while(!s.empty()) {
-        arr[i] = s.top();
+        res.push_back(s.top());
         s.pop();
-        i++;
     }
-    int *A = arr;
-    return A;
+    return res;
 }
+
