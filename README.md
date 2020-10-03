@@ -45,7 +45,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Remove loop in Linked List](https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Remove-loop-in-Linked-List.cpp) |_O(n)_ | _O(1)_ | Medium | |
 2 | [Delete without head pointer](https://practice.geeksforgeeks.org/problems/delete-without-head-pointer/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-without-head-pointer.cpp) |_O(n)_ | _O(1)_ | Medium | |
-3 | [Intersection Point in Y Shapped Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Intersection-Point-in-Y-Shapped-Linked-Listscpp) |_O(n)_ | _O(1)_ | Medium | |
+3 | [Intersection Point in Y Shapped Linked Lists](https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Intersection-Point-in-Y-Shapped-Linked-Lists.cpp) |_O(n)_ | _O(1)_ | Medium | |
 4 | [Reverse a Linked List in groups of given size](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-a-Linked-List-in-groups-of-given-size.cpp) |_O(n)_ | _O(1)_ | Medium | |
 5 | [Flattening a Linked List](https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Flattening-a-Linked-List.cpp) |_O(m*n)_ | _O(m+n)_ | Medium | |
 6 | [*Merge Sort for Linked Lists](https://practice.geeksforgeeks.org/problems/sort-a-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-sort-for-linked-list.cpp) |_O(nlogn)_ | _O(n)_ | Easy | |
@@ -206,7 +206,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Combination Sum](https://practice.geeksforgeeks.org/problems/combination-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum.cpp) |  |  | Medium | |
 2 | [Combination Sum - 2](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum-2.cpp) |  |  | Medium | |
-3 | [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum-2.cpp) | _O(9^(n^2))_ | _O(n^2)_  | Hard | |
+3 | [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Solve-the-Sudoku.cpp) | _O(9^(n^2))_ | _O(n^2)_  | Hard | |
 
 
 ## Dynamic Programming
