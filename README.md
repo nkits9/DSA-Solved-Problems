@@ -69,7 +69,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1 | [Longest valid Parentheses](https://practice.geeksforgeeks.org/problems/longest-valid-parentheses/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-valid-Parentheses.cpp) |_O(n)_ | _O(n)_ | Hard | |
 2 | [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-of-all-subarrays-of-size-k.cpp) |_O(n)_ | _O(n)_ | Medium | |
 3 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
-4 | [*Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Get-minimum-element-from-stack.cpp) |_O(1)_ | _O(1)_ | Medium | |
+4 | [*Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Get-minimum-element-from-stack.cpp) |_O(1)_ | _O(1)_ | Medium | |
 5 | [*Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Next-larger-element.cpp) |_O(n)_ | _O(n)_ | Medium | |
 6 | [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Circular-tour.cpp) |_O(n)_ | _O(n)_ | Medium | |
 7 | [Infix to Postfix](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Infix-to-Postfix.cpp) |_O(n)_ | _O(n)_ | Medium | |
@@ -138,6 +138,9 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Relative Sorting](https://practice.geeksforgeeks.org/problems/relative-sorting/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Relative-Sorting.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+2 | [Longest consecutive subsequence](https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence/0/?category[]=Hash&problemStatus=solved&page=1&query=category[]HashproblemStatussolvedpage1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-consecutive-subsequence.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+3 | [Sorting Elements of an Array by Frequency](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1/?category[]=Hash&problemStatus=solved&page=1&query=category[]HashproblemStatussolvedpage1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sorting-Elements-of-an-Array-by-Frequency.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+
 
 ## Graph
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
@@ -206,7 +209,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Combination Sum](https://practice.geeksforgeeks.org/problems/combination-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum.cpp) |  |  | Medium | |
 2 | [Combination Sum - 2](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Combination-Sum-2.cpp) |  |  | Medium | |
-3 | [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/combination-sum-part-2/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Solve-the-Sudoku.cpp) | _O(9^(n^2))_ | _O(n^2)_  | Hard | |
+3 | [Solve the Sudoku](https://practice.geeksforgeeks.org/problems/solve-the-sudoku/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Solve-the-Sudoku.cpp) | _O(9^(n^2))_ | _O(n^2)_  | Hard | |
 
 
 ## Dynamic Programming
