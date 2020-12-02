@@ -216,6 +216,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/0-1-Knapsack-Problem.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
+1 | [House Robber](https://leetcode.com/problems/house-robber/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber.cpp) | _O(n)_ | _O(n)_ | Easy | |
 2 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
 3 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unique-Paths-2.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
 3 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
