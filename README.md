@@ -216,12 +216,13 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/0-1-Knapsack-Problem.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-1 | [House Robber](https://leetcode.com/problems/house-robber/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber.cpp) | _O(n)_ | _O(n)_ | Easy | |
-2 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-3 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unique-Paths-2.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
-3 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
-4 | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0/?category[]=Dynamic%20Programming&page=1&sortBy=submissions&query=category[]Dynamic%20Programmingpage1sortBysubmissions) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-5 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
+2 | [House Robber](https://leetcode.com/problems/house-robber/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber.cpp) | _O(n)_ | _O(n)_ | Easy | |
+3 | [House Robber II](https://leetcode.com/problems/house-robber-ii/discuss/?currentPage=2&orderBy=hot&query=) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber-II.cpp) | _O(n)_ | _O(n)_ | Medium | |
+4 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
+5 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unique-Paths-2.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
+6 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
+7 | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0/?category[]=Dynamic%20Programming&page=1&sortBy=submissions&query=category[]Dynamic%20Programmingpage1sortBysubmissions) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
+8 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
 
 
 ## Bit Magic
