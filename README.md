@@ -224,6 +224,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 7 | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0/?category[]=Dynamic%20Programming&page=1&sortBy=submissions&query=category[]Dynamic%20Programmingpage1sortBysubmissions) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
 8 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
 9 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximal-Square.cpp) | |  | Medium | |
+10 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Best-Time-to-Buy-and-Sell-Stock.cpp) | _O(n)_ | _O(1)_ | Easy | Kadane's Algorithm |
 
 
 
