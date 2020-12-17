@@ -225,7 +225,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 8 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
 9 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximal-Square.cpp) | _O(n*m)_ | _O(n*m)_ | Medium | |
 10 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Best-Time-to-Buy-and-Sell-Stock.cpp) | _O(n)_ | _O(1)_ | Easy | Kadane's Algorithm |
-
+11 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Perfect-Squares.cpp) | _O(n*sqrt(n))_ | _O(1)_ | Medium |  |
 
 
 ## Bit Magic
