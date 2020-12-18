@@ -1,8 +1,7 @@
 // Method 1: Top-down
 
 class Solution {
-public:
-    
+public: 
     int numOfSquares(int n, vector<int> &dp) {
         if(n == 0)    return dp[0];
 
@@ -21,7 +20,6 @@ public:
         return dp[n];
     }
 
-
     int numSquares(int n) {
         vector<int> dp(n+1,-1);
         dp[0] = 0;
@@ -36,7 +34,6 @@ public:
 
 class Solution {
 public:
-    
     int numSquares(int n) {
         int dp[n+1], val;
         dp[0] = 0;
@@ -52,5 +49,4 @@ public:
         
         return dp[n];
     }
-    
 };
