@@ -40,6 +40,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 
 
 
+
 ## Linked List
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
@@ -70,19 +71,20 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 2 | [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-of-all-subarrays-of-size-k.cpp) |_O(n)_ | _O(n)_ | Medium | |
 3 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
 4 | [*Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Get-minimum-element-from-stack.cpp) |_O(1)_ | _O(1)_ | Medium | |
-5 | [*Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Next-larger-element.cpp) |_O(n)_ | _O(n)_ | Medium | |
-6 | [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Circular-tour.cpp) |_O(n)_ | _O(n)_ | Medium | |
-7 | [Infix to Postfix](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Infix-to-Postfix.cpp) |_O(n)_ | _O(n)_ | Medium | |
-8 | [Evaluation of Postfix Expression](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Evaluation-of-Postfix-Expression.cpp) |_O(n)_ | _O(n)_ | Easy | |
-9 | [Sort a stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sort-a-stack.cpp) |_O(n^2)_ | _O(n)_ | Easy | |
-10 | [Delete middle element of a stack](https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-middle-element-of-a-stack.cpp) |_O(n)_ | _O(n)_ | Easy | |
-11 | [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Stack-using-two-queues.cpp) |_O(n)_ | _O(1)_ | Easy | |
-12 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
-13 | [Implement two stacks in an array](https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-two-stacks-in-an-array.cpp) |_O(1)_ | _O(1)_ | Easy | |
-14 | [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
-15 | [Implement Stack using Linked List](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Stack-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
-16 | [Implement Queue using array](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
-17 | [Implement stack using array](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-stack-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
+5 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Largest-Rectangle-in-Histogram.cpp) |_O(n)_ | _O(n)_ | Medium | |
+6 | [*Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Next-larger-element.cpp) |_O(n)_ | _O(n)_ | Medium | |
+7 | [Circular tour](https://practice.geeksforgeeks.org/problems/circular-tour-1587115620/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Circular-tour.cpp) |_O(n)_ | _O(n)_ | Medium | |
+8 | [Infix to Postfix](https://practice.geeksforgeeks.org/problems/infix-to-postfix/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Infix-to-Postfix.cpp) |_O(n)_ | _O(n)_ | Medium | |
+9 | [Evaluation of Postfix Expression](https://practice.geeksforgeeks.org/problems/evaluation-of-postfix-expression/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Evaluation-of-Postfix-Expression.cpp) |_O(n)_ | _O(n)_ | Easy | |
+10 | [Sort a stack](https://practice.geeksforgeeks.org/problems/sort-a-stack/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sort-a-stack.cpp) |_O(n^2)_ | _O(n)_ | Easy | |
+11 | [Delete middle element of a stack](https://practice.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-middle-element-of-a-stack.cpp) |_O(n)_ | _O(n)_ | Easy | |
+12 | [Stack using two queues](https://practice.geeksforgeeks.org/problems/stack-using-two-queues/1) |  [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Stack-using-two-queues.cpp) |_O(n)_ | _O(1)_ | Easy | |
+13 | [Queue using two Stacks](https://practice.geeksforgeeks.org/problems/queue-using-two-stacks/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Queue-using-two-Stacks.cpp) |_O(n)_ | _O(1)_ | Easy | |
+14 | [Implement two stacks in an array](https://practice.geeksforgeeks.org/problems/implement-two-stacks-in-an-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-two-stacks-in-an-array.cpp) |_O(1)_ | _O(1)_ | Easy | |
+15 | [Implement Queue using Linked List](https://practice.geeksforgeeks.org/problems/implement-queue-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
+16 | [Implement Stack using Linked List](https://practice.geeksforgeeks.org/problems/implement-stack-using-linked-list/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Stack-using-Linked-List.cpp) |_O(1)_ | _O(1)_ | Basic | |
+17 | [Implement Queue using array](https://practice.geeksforgeeks.org/problems/implement-queue-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-Queue-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
+18 | [Implement stack using array](https://practice.geeksforgeeks.org/problems/implement-stack-using-array/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Implement-stack-using-array.cpp) |_O(1)_ | _O(1)_ | Basic | |
 
 
 
@@ -96,11 +98,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 5 | [Connect Nodes at Same Level](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Connect-Nodes-at-Same-Level.cpp) | _O(n)_ | _O(n)_  | Medium | |
 6 | [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-for-BST.cpp) | _O(n)_ | _O(H)_  | Medium | |
 7 | [Delete a node from BST](https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-a-node-from-BST.cpp) | _O(H)_ | _O(H)_  | Medium | |
-12 | [k-th smallest element in BST](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/kth-smallest-element-in-BST.cpp) | _O(n)_ | _O(n)_  | Medium | |
 8 | [Inorder Successor in BST](https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Inorder-Successor-in-BST.cpp) | _O(H)_ | _O(1)_  | Easy | |
 9 | [Left View of Binary Tree](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Left-View-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
 10 | [Lowest Common Ancestor in a BST](https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Lowest-Common-Ancestor-in-a-BST.cpp) | _O(n)_ | _O(n)_  | Easy | |
 11 | [Insert a node in a BST](https://practice.geeksforgeeks.org/problems/insert-a-node-in-a-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Insert-a-node-in-a-BST.cpp) | _O(n)_ | _O(n)_  | Easy | |
+12 | [k-th smallest element in BST](https://practice.geeksforgeeks.org/problems/find-k-th-smallest-element-in-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/kth-smallest-element-in-BST.cpp) | _O(n)_ | _O(n)_  | Medium | |
 13 | [Diagonal Sum In Binary Tree](https://practice.geeksforgeeks.org/problems/diagonal-sum-in-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Diagonal-Sum-In-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
 14 | [Array to BST](https://practice.geeksforgeeks.org/problems/array-to-bst/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Array-to-BST.cpp) | _O(n)_ | _O(n)_  | Easy | |
 15 | [Mirror Tree](https://practice.geeksforgeeks.org/problems/mirror-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Mirror-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
@@ -221,12 +223,15 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 4 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
 5 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unique-Paths-2.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
 6 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
-7 | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0/?category[]=Dynamic%20Programming&page=1&sortBy=submissions&query=category[]Dynamic%20Programmingpage1sortBysubmissions) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-8 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
-9 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximal-Square.cpp) | _O(n*m)_ | _O(n*m)_ | Medium | |
-10 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Best-Time-to-Buy-and-Sell-Stock.cpp) | _O(n)_ | _O(1)_ | Easy | Kadane's Algorithm |
-11 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Perfect-Squares.cpp) | _O(n*sqrt(n))_ | _O(1)_ | Medium |  |
-12 | [Word Break](https://leetcode.com/problems/word-break/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Word-Break.cpp) |_O(n^2)_ | _O(n)_ | Medium | |
+7 | [Longest Common Subsequence](https://practice.geeksforgeeks.org/problems/longest-common-subsequence/0/?category[]=Dynamic%20Programming&page=1&sortBy=submissions&query=category[]Dynamic%20Programmingpage1sortBysubmissions) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
+8 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Increasing-Subsequence.cpp) |_O(n^2)_ | _O(n^2)_ | Medium | |
+9 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Palindromic-Substring.cpp) |_O(n^2)_ | _O(1)_ | Medium | |
+10 | [Coin Change](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
+11 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximal-Square.cpp) | _O(n*m)_ | _O(n*m)_ | Medium | |
+12 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Best-Time-to-Buy-and-Sell-Stock.cpp) | _O(n)_ | _O(1)_ | Easy | Kadane's Algorithm |
+13 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Perfect-Squares.cpp) | _O(n*sqrt(n))_ | _O(1)_ | Medium |  |
+14 | [Word Break](https://leetcode.com/problems/word-break/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Word-Break.cpp) |_O(n^2)_ | _O(n)_ | Medium | |
+15 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximal-Rectangle.cpp) |_O(n^2)_ | _O(n)_ | Hard | |
 
 
 ## Bit Magic
@@ -252,6 +257,3 @@ Pull requests are welcome. For major changes, please open an issue first to disc
  ✉️ *nkits9@gmail.com*
  - Linkedin: [@nkits9](https://www.linkedin.com/in/nkits9/)
  - Github: [@nkits9](https://github.com/nkits9)
-
-
-
