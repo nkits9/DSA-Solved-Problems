@@ -30,6 +30,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1| [Count pairs with given sum](https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Count-pairs-with-given-sum.cpp) |  |  | Easy | |
 2| [Find Missing And Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-Missing-And-Repeating.cpp) | _O(n)_ | _O(1)_ | Medium | |
 3| [Merge Without Extra Space](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-Without-Extra-Space.cpp) |  |  | Hard | |
+4| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Container-With-Most-Water.cpp) | _O(n)_ | _O(1)_  | Medium | |
+5| [Count Primes](https://leetcode.com/problems/container-with-most-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Container-With-Most-Water.cpp) | _O(n)_ | _O(n)_  | Easy | Sieve |
 
 
 
@@ -70,6 +72,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1 | [Longest valid Parentheses](https://practice.geeksforgeeks.org/problems/longest-valid-parentheses/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-valid-Parentheses.cpp) |_O(n)_ | _O(n)_ | Hard | |
 2 | [Maximum of all subarrays of size k](https://practice.geeksforgeeks.org/problems/maximum-of-all-subarrays-of-size-k/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-of-all-subarrays-of-size-k.cpp) |_O(n)_ | _O(n)_ | Medium | |
 3 | [Parenthesis Checker](https://practice.geeksforgeeks.org/problems/parenthesis-checker/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Parenthesis-Checker.cpp) |_O(n)_ | _O(n)_ | Medium | |
+3 | [Decode String](https://leetcode.com/problems/decode-string/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Decode-String.cpp) |_O(n)_ | _O(n)_ | Medium | |
 4 | [*Get minimum element from stack](https://practice.geeksforgeeks.org/problems/get-minimum-element-from-stack/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Get-minimum-element-from-stack.cpp) |_O(1)_ | _O(1)_ | Medium | |
 5 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Largest-Rectangle-in-Histogram.cpp) |_O(n)_ | _O(n)_ | Medium | |
 6 | [*Next larger element](https://practice.geeksforgeeks.org/problems/next-larger-element/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Next-larger-element.cpp) |_O(n)_ | _O(n)_ | Medium | |
@@ -142,6 +145,8 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1 | [Relative Sorting](https://practice.geeksforgeeks.org/problems/relative-sorting/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Relative-Sorting.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
 2 | [Longest consecutive subsequence](https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence/0/?category[]=Hash&problemStatus=solved&page=1&query=category[]HashproblemStatussolvedpage1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Longest-consecutive-subsequence.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
 3 | [Sorting Elements of an Array by Frequency](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1/?category[]=Hash&problemStatus=solved&page=1&query=category[]HashproblemStatussolvedpage1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sorting-Elements-of-an-Array-by-Frequency.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
+4 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Substring-Without-Repeating-Characters.cpp) |_O(n)_ | _O(n)_ | Medium | |
+5 | [Partition Labels](https://leetcode.com/problems/partition-labels/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Partition-Labels.cpp) |_O(n)_ | _O(n)_ | Medium | |
 
 
 ## Graph
@@ -232,6 +237,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 13 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Perfect-Squares.cpp) | _O(n*sqrt(n))_ | _O(1)_ | Medium |  |
 14 | [Word Break](https://leetcode.com/problems/word-break/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Word-Break.cpp) |_O(n^2)_ | _O(n)_ | Medium | |
 15 | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximal-Rectangle.cpp) |_O(n^2)_ | _O(n)_ | Hard | |
+16 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximum-Product-Subarray.cpp) |_O(n)_ | _O(1)_ | Medium | |
+17 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Minimum-Remove-to-Make-Valid-Parentheses.cpp) |_O(n)_ | _O(n)_ | Medium | |
+18 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Trapping-Rain-Water.cpp) |_O(n)_ | _O(n)_ | Hard | |
+
+
 
 
 ## Bit Magic
