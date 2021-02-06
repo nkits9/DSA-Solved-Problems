@@ -1,27 +1,31 @@
-void levelOrder(Node* node) {
+vector<vector<int>> levelOrder(Node* root) {
+    vector<vector<int>> res;
     queue<Node*> q;
-    q.push(node);
-    int nodeCount;
+    q.push(root);
     
     while(!q.empty()) {
-        nodeCount = q.size();
+        int nodeCount = q.size();
+        vector<int> currlevel;
         
-        while(nodeCount > 0) {
+        while(nodeCount--) {
             Node* temp = q.front();
-            printf("%d ", temp->data);
             q.pop();
+            currlevel.push_back(temp->data);
             
-            if(temp->left != NULL)
+            if(temp->left != NULL) 
                 q.push(temp->left);
-            if(temp->right != NULL)
+            if(temp->right != NULL) 
                 q.push(temp->right);
-                
-            nodeCount--;
         }
-        
-        printf("$ ");
+
+        res.push_back(currlevel);
     }
+    
+    return res;
 }
+
+
+
 
 /*
 Similar Problems:

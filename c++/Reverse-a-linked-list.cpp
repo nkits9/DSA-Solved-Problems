@@ -1,3 +1,4 @@
+// Method 1 : Iterative
 struct Node {
     int data;
     struct Node *next;
@@ -21,4 +22,27 @@ Node* reverseList(Node *head) {
     }
     head->next = prev;
     return head;
+}
+
+// Method 2 : Recursive
+
+Node* reverse(Node* root, Node* &head) {
+    if(root == NULL)    return root;
+    
+    if(root->next == NULL) {
+        head = root;
+        return root;
+    }
+    
+    Node* node = reverse(root->next, head);
+    node->next = root;
+    root->next = NULL;
+    return root;
+}
+
+Node* reverseList(Node* head) {
+    Node* reverseHead = NULL;
+    reverse(head, reverseHead);
+    
+    return reverseHead;
 }
