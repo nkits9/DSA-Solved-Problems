@@ -31,7 +31,11 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 2| [Find Missing And Repeating](https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Find-Missing-And-Repeating.cpp) | _O(n)_ | _O(1)_ | Medium | |
 3| [Merge Without Extra Space](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays5135/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-Without-Extra-Space.cpp) |  |  | Hard | |
 4| [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Container-With-Most-Water.cpp) | _O(n)_ | _O(1)_  | Medium | |
-5| [Count Primes](https://leetcode.com/problems/container-with-most-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Count-Primes.cpp) | _O(n)_ | _O(n)_  | Easy | Sieve |
+5| [Count Primes](https://leetcode.com/problems/container-with-most-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Count-Primes.cpp) | _O(n)_ | _O(n)_  | Easy | Sieve of Eratosthenes |
+6| [Sort an array of 0s, 1s and 2s](https://leetcode.com/problems/sort-colors/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Sort-arrays-of-0s-1s-and-2s.cpp) | _O(n)_ | _O(1)_  | Medium | |
+7| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Kth-Largest-number.cpp) | _O(n)_ | _O(1)_  | Medium | Quickselect |
+8| [First Missing Positive](https://leetcode.com/problems/first-missing-positive/submissions/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/First-Missing-Positive.cpp) | _O(n)_ | _O(1)_  | Hard | |
+
 
 
 

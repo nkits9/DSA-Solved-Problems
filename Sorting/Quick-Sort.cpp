@@ -3,11 +3,11 @@
 using namespace std;  
   
   
-int partition (int arr[], int low, int high) {  
-    int pivot = arr[high]; // pivot  
-    int i = (low - 1); // Index of smaller element  
+int partition (int arr[], int l, int r) {  
+    int pivot = arr[r]; // pivot  
+    int i = (l - 1); // Index of smaller element  
   
-    for (int j = low; j <= high; j++) {    
+    for (int j = l; j <= r; j++) {    
         if (arr[j] <= pivot) {  
             i++; // increment index of smaller element  
             swap(arr[i], arr[j]);  
@@ -16,14 +16,14 @@ int partition (int arr[], int low, int high) {
     return i;  
 }  
 
-void quickSort(int arr[], int low, int high) {  
-    if (low < high) {  
+void quickSort(int arr[], int l, int r) {  
+    if (l < r) {  
         // pi is partitioning index, arr[p] is now at right place 
-        int pi = partition(arr, low, high);  
+        int pi = partition(arr, l, r);  
   
         // Separately sort elements before partition and after partition  
-        quickSort(arr, low, pi - 1);  
-        quickSort(arr, pi + 1, high);  
+        quickSort(arr, l, pi - 1);  
+        quickSort(arr, pi + 1, r);  
     }  
 }  
 
