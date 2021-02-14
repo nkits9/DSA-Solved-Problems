@@ -246,7 +246,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 18 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximum-Product-Subarray.cpp) |_O(n)_ | _O(1)_ | Medium | |
 19 | [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Minimum-Remove-to-Make-Valid-Parentheses.cpp) |_O(n)_ | _O(n)_ | Medium | |
 20 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Trapping-Rain-Water.cpp) |_O(n)_ | _O(n)_ | Hard | |
-21 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Trapping-Rain-Water.cpp) |_O(n^2)_ | _O(n)_ | Hard | |
+21 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximum-Profit-in-Job-Scheduling.cpp) |_O(n^2)_ | _O(n)_ | Hard | |
 
 
 
