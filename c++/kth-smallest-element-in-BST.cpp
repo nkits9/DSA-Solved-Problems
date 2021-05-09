@@ -40,25 +40,26 @@ int KthSmallestElement(Node *root, int k) {
 // Method 2: Recursion
 // Inorder Traversal
 
-void kthElement(Node* root, int k, int &count, int &ans) {
-    if(root == NULL)    return;
-    
-    kthElement(root->left, k , count, ans);
-    
-    count++;
-    if(k==count) {
-        ans = root->data;
-    }
-        
-    kthElement(root->right, k , count, ans);
-    
+int kthSmallest(Node* root, int &k) {
+    if(root == NULL)    return INT_MIN;
+
+    int left = kthSmallest(root->left, k);
+
+    if(left != INT_MIN)    return left;
+
+    k--;
+    if(k==0)    return root->data;
+
+    int right = kthSmallest(root->right, k);
+
+    if(right != INT_MIN)    return right;
+
+    return INT_MIN;
 }
 
 int KthSmallestElement(Node *root, int k) {
-    int ans = -1;
-    int count = 0;
-    kthElement(root, k, count, ans);
-    return ans;
+    int ans = kthSmallest(root, k);
+    return ans == INT_MIN ? -1 : ans;
 }
 
 ----------------------------------------------------------------------------------------------------------------------------
