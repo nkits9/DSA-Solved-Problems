@@ -95,7 +95,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 
 
 
-## Tree
+## Binary Tree
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Binary-Tree-to-DLL.cpp) | _O(H)_ | _O(H)_  | Hard | |
