@@ -13,7 +13,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 * [String](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#String)
 * [Linked List](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Linked-List)
 * [Stack and Queue](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Stack-and-Queue)
-* [Tree](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Tree)
+* [Binary Tree](https://github.com/nkits9/DSA-Solved-Problems#binary-tree)
 * [Heap](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Heap)
 * [Recursion](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Recursion)
 * [Hashing](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Hashing)
