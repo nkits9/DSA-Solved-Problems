@@ -1,46 +1,43 @@
-int main() {
-    IOS;
-    int t, n, m, inp, a, b, x, y;
-    cin >> t;
-    while(t--) {
-        int row[] = {0, 1, 0, -1};
-        int col[] = {1, 0, -1, 0};
-        cin >> n >> m;
-        vvi grid(n, vi(m));
-        vvi dist(n, vi(m));
-        queue<pii> q;
+class Solution {
+    public:
+
+    //Function to find distance of nearest 1 in the grid for each cell.
+    vector<vector<int>> nearest(vector<vector<int>>grid) {
+
+        int n = grid.size(), m = grid[0].size();
+        vector<vector<int>> dist(n, vector<int>(m));
+        
+        queue<pair<int, int>> q;
+        
+        int row[4] = {1, 0, -1, 0};
+        int col[4] = {0, -1, 0, 1};
+        
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
-                cin >> inp;
-                if(inp == 1) {
-                    grid[i][j] = 0;
+                if(grid[i][j] == 1) {
                     q.push({i, j});
                     dist[i][j] = 0;
-                } else {
-                    grid[i][j] = 1;
                 }
             }
         }
+        
         while(!q.empty()) {
-            a = q.front().first;
-            b = q.front().second;
+            int a = q.front().first;
+            int b = q.front().second;
             q.pop();
+            
             for(int k=0; k<4; k++) {
-                x = a + row[k];
-                y = b + col[k];
-                if(x>=0 && x<n && y>=0 && y<m && grid[x][y]==1) {
-                    grid[x][y] = 0; //mark as visited.
-                    q.push({x, y});
+                int x = a + row[k];
+                int y = b + col[k];
+                
+                if(x>=0 && x<n && y>=0 && y<m && grid[x][y] == 0) {
+                    grid[x][y] = 1; // mark it as visited
                     dist[x][y] = dist[a][b] + 1;
+                    q.push({x, y});
                 }
             }
         }
-
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<m; j++) {
-                cout << dist[i][j] << " ";
-            }
-        }
-        cout << endl;
+        
+        return dist;
     }
-}
+};
