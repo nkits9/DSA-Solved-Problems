@@ -1,4 +1,4 @@
-void DFSUtil(int i, vector<int> adj[], bool *vis, vector<int> &res) {
+void DFSUtil(int i, vector<int> adj[], vector<int> &vis, vector<int> &res) {
     vis[i] = true;
     res.push_back(i);
     
@@ -11,8 +11,7 @@ void DFSUtil(int i, vector<int> adj[], bool *vis, vector<int> &res) {
 
 vector<int> dfs(vector<int> adj[], int n) {
     vector<int> res;
-    bool vis[n];
-    memset(vis, false, sizeof(vis));
+    vector<bool> vis(n, false);
     
     for(int i=0; i<n; i++) {
         if(!vis[i]) {
