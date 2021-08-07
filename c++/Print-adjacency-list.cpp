@@ -11,21 +11,18 @@ void printAdj(vector<int> adj[], int v) {
     }
 }
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	
-	int t; cin >> t;
-	while(t--) {
-	    int v, e;
-	    cin>>v>> e;
-	    vector<int> adj[v];
-	    for(int i=0; i<e; i++) {
-	        int a, b;
-	        cin>>a>>b;
-	        adj[a].push_back(b);
+    int t; cin >> t;
+    while(t--) {
+        int v, e;
+        cin>>v>> e;
+        vector<int> adj[v];
+        for(int i=0; i<e; i++) {
+            int a, b;
+            cin>>a>>b;
+            adj[a].push_back(b);
             adj[b].push_back(a);
-	    }
-	    printAdj(adj, v);
-	}
-	return 0;
+        }
+        printAdj(adj, v);
+    }
+    return 0;
 }
