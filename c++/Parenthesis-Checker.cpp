@@ -32,5 +32,4 @@ bool isValid(string s) {
         return false;
 
     return true;
-
 }
