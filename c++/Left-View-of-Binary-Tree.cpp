@@ -19,6 +19,38 @@ void leftView(struct Node *root) {
     leftViewUtil(root, 1, &max_level);
 }
 -------------------------------------------------------------------------------------------------------------------------
+    
+// Method 2: First element of each level in level order traversal of tree is the result.
+    
+vector<int> leftView(Node *root) {
+    vector<int> res;
+    if(root == NULL)    return res;
+
+    queue<Node*> q;
+    q.push(root);
+
+    while(!q.empty()) {
+       int nodeCount = q.size();
+       int count = 0;
+        while(nodeCount--) {
+            Node* temp = q.front();
+            q.pop();
+
+            if(count==0) {
+                res.push_back(temp->data);
+            }
+            count++;
+
+            if(temp->left!=NULL)
+                q.push(temp->left);
+            if(temp->right!=NULL)
+                q.push(temp->right);
+        }
+    }
+
+    return res;
+}
+ 
 
 Similar Problems :
 

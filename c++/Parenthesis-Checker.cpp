@@ -1,62 +1,35 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define IOS ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define endl "\n"
+bool isValid(string s) {
+    stack<char> st;
+    int i = 0;
 
-bool isBalanced(string x) {
-    stack<char> s;
-    for(int i=0; i<x.size(); i++) {
-        if(x[i] == '{' || x[i] == '[' || x[i] == '(') {
-            s.push(x[i]);
+    while(i < s.size()) {
+        if(s[i]=='(' || s[i]=='[' || s[i]=='{') {
+            st.push(s[i]);
         }
-        if(s.empty()) {
-            s.push(x[i]);
-            continue;
+
+        if(s[i]==')') {
+            if (st.empty() || st.top()!='(')
+                return false;
+            st.pop(); 
         }
-        
-        if(x[i] == '}') {
-            if(s.top() == '{') {
-                s.pop();
-            } else {
-                s.push(x[i]);
-            }
+
+        if(s[i]==']') {
+            if (st.empty() || st.top()!='[')
+                return false;
+            st.pop(); 
         }
-        if(x[i] == ']') {
-            if(s.top() == '[') {
-                s.pop();
-            } else {
-                s.push(x[i]);
-            }
+
+        if(s[i]=='}') {
+            if (st.empty() || st.top()!='{')
+                return false;
+            st.pop(); 
         }
-        if(x[i] == ')') {
-            if(s.top() == '(') {
-                s.pop();
-            } else {
-                s.push(x[i]);
-            }
-        }
+
+        i++;
     }
-    if(s.empty())
-        return true;
-    else
+
+    if(!st.empty()) 
         return false;
+
+    return true;
 }
-
-
-int main() {
-    IOS;
-    int t; cin>>t;
-    string str;
-    while(t--){
-        cin>>str;
-        if(isBalanced(str))
-            cout<<"balanced"<<endl;
-        else
-            cout<<"not balanced"<<endl;
-    }
-}
-
-
-
-//Similar Problems :
-//https://practice.geeksforgeeks.org/problems/print-bracket-number/0

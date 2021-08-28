@@ -1,28 +1,39 @@
-void DFSUtil(int i, int j, int &N, int &M, vector<int> *A, vector<vector<bool>> &vis) {
-    int row[] = {0, 1, 1, 1, 0, -1, -1, -1};
-    int col[] = {1, 1, 0, -1, -1, -1, 0, 1};
-    vis[i][j] = true;
+class Solution
+{
+    public:
+    int row[8] = {0, 1, 1, 1, 0, -1, -1, -1};
+    int col[8] = {1, 1, 0, -1, -1, -1, 0, 1};
     
-    for(int k=0; k < 8; k++) {
-        int x = i + row[k];
-        int y = j + col[k];
-        if(x < N && x >= 0 && y < M && y >= 0) {
-            if(!vis[x][y] && A[i][j])
-                DFSUtil(x, y, N, M, A, vis);
-        }
-    }
-}
-
-int findIslands(vector<int> A[], int N, int M) {
-    vector<vector<bool>> vis(N, vector<bool>(M, false));
-    int noOfIsland = 0;
-    for(int i=0; i<N; i++) {
-        for(int j=0; j<M; j++) {
-            if(!vis[i][j] && A[i][j]) {
-                DFSUtil(i, j, N, M, A, vis);
-                noOfIsland++;
+    void islandTour(pair<int, int> src, vector<vector<char>>& grid, vector<vector<bool>> &vis) {
+        int a = src.first, b = src.second;
+        vis[a][b] = true;
+        
+        for(int k=0; k<8; k++) {
+            int x = a + row[k];
+            int y = b + col[k];
+            
+            if(x>=0 && x<grid.size() && y>=0 && y<grid[0].size()) {
+                if(!vis[x][y] && grid[x][y]=='1')
+                    islandTour({x, y}, grid, vis);
             }
         }
     }
-    return noOfIsland;
-}
+    
+    int numIslands(vector<vector<char>>& grid) {
+        int n = grid.size(), m = grid[0].size();
+        vector<vector<bool>> vis(n, vector<bool>(m, false));
+        
+        int noOfIsland = 0;
+        
+        for(int i=0; i<n; i++) {
+            for(int j=0; j<m; j++) {
+                if(!vis[i][j] && grid[i][j]=='1') {
+                    islandTour({i, j}, grid, vis);
+                    noOfIsland++;
+                }
+            }
+        }
+        
+        return noOfIsland;
+    }
+};
