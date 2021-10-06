@@ -101,19 +101,20 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1 | [Binary Tree to DLL](https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Binary-Tree-to-DLL.cpp) | _O(H)_ | _O(H)_  | Hard | |
 2 | [Maximum Path Sum between 2 Leaf Nodes](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-Path-Sum-between-2-Leaf-Nodes.cpp) | _O(n)_ | _O(H)_  | Hard | DP on trees |
 2 | [Maximum Path Sum from any node to any node](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-Path-Sum-in-Binary-Tree.cpp) | _O(n)_ | _O(H)_  | Hard | DP on trees |
-21 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Diameter-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | DP on trees |
-3 | [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Top-View-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Medium | |
-4 | [Vertical Traversal of Binary Tree](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Vertical-Traversal-of-Binary-Tree.cpp) |_O(n)_ | _O(n)_  | Medium | |
-5 | [Connect Nodes at Same Level](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Connect-Nodes-at-Same-Level.cpp) | _O(n)_ | _O(n)_  | Medium | |
-9 | [Right View of Binary Tree](https://leetcode.com/problems/binary-tree-right-side-view/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Right-View-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
-13 | [Diagonal Sum In Binary Tree](https://practice.geeksforgeeks.org/problems/diagonal-sum-in-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Diagonal-Sum-In-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
-15 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Symmetric-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
-16 | [Reverse Level Order Traversal](https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-Level-Order-Traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
-17 | [Level order traversal in spiral form](https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-in-spiral-form.cpp) | _O(n)_ | _O(n)_  | Easy | |
-18 | [Level order traversal Line by Line](https://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-Line-by-Line.cpp) | _O(n)_ | _O(n)_  | Easy | |
-19 | [Level order traversal](https://practice.geeksforgeeks.org/problems/level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
-20 | [Height of Binary Tree, Number of Leaves](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Height-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Basic | |
-21 | [Preorder, Inorder and Postorder Traverasal](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&difficulty%5B%5D=-1&page=1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Preorder-Inorder-Postorder-Traverasal.cpp) | _O(n)_ | _O(n)_  | Basic | |
+3 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Diameter-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | DP on trees |
+4 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   |  |  | Medium | |
+5 | [Top View of Binary Tree](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Top-View-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Medium | |
+6 | [Right View of Binary Tree](https://leetcode.com/problems/binary-tree-right-side-view/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Right-View-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Medium | |
+7 | [Vertical Traversal of Binary Tree](https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Vertical-Traversal-of-Binary-Tree.cpp) |_O(n)_ | _O(n)_  | Medium | |
+8 | [Connect Nodes at Same Level](https://practice.geeksforgeeks.org/problems/connect-nodes-at-same-level/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Connect-Nodes-at-Same-Level.cpp) | _O(n)_ | _O(n)_  | Medium | |
+9 | [Diagonal Sum In Binary Tree](https://practice.geeksforgeeks.org/problems/diagonal-sum-in-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Diagonal-Sum-In-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
+10 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Symmetric-Tree.cpp) | _O(n)_ | _O(n)_  | Easy | |
+11 | [Reverse Level Order Traversal](https://practice.geeksforgeeks.org/problems/reverse-level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Reverse-Level-Order-Traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
+12 | [Level order traversal in spiral form](https://practice.geeksforgeeks.org/problems/level-order-traversal-in-spiral-form/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-in-spiral-form.cpp) | _O(n)_ | _O(n)_  | Easy | |
+13 | [Level order traversal Line by Line](https://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal-Line-by-Line.cpp) | _O(n)_ | _O(n)_  | Easy | |
+14 | [Level order traversal](https://practice.geeksforgeeks.org/problems/level-order-traversal/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Level-order-traversal.cpp) | _O(n)_ | _O(n)_  | Easy | |
+15 | [Height of Binary Tree, Number of Leaves](https://practice.geeksforgeeks.org/problems/height-of-binary-tree/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Height-of-Binary-Tree.cpp) | _O(n)_ | _O(n)_  | Basic | |
+16 | [Preorder, Inorder and Postorder Traverasal](https://practice.geeksforgeeks.org/explore/?category%5B%5D=Tree&difficulty%5B%5D=-1&page=1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Preorder-Inorder-Postorder-Traverasal.cpp) | _O(n)_ | _O(n)_  | Basic | |
 
 
 
@@ -126,11 +127,10 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 4 | [Inorder Successor in BST](https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Inorder-Successor-in-BST.cpp) | _O(H)_ | _O(1)_  | Easy | |
 5 | [Delete a node from BST](https://practice.geeksforgeeks.org/problems/delete-a-node-from-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-a-node-from-BST.cpp) | _O(H)_ | _O(H)_  | Medium | |
 6 | [Check for BST](https://practice.geeksforgeeks.org/problems/check-for-bst/1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-for-BST.cpp) | _O(n)_ | _O(H)_  | Medium | |
-7 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |   |  |  | Medium | |
-8 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) |   |  |   | Medium | |
-9 | [Largest BST](https://practice.geeksforgeeks.org/problems/largest-bst/1) |   |  |   | Medium | |
-10 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |   |  |  | Medium | |
-11 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) |   |  |  | Medium | |
+7 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) |   |  |   | Medium | |
+8 | [Largest BST](https://practice.geeksforgeeks.org/problems/largest-bst/1) |   |  |   | Medium | |
+9 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |   |  |  | Medium | |
+10 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) |   |  |  | Medium | |
 
 
 
