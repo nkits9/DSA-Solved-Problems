@@ -165,6 +165,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 3 | [Sorting Elements of an Array by Frequency](https://practice.geeksforgeeks.org/problems/sorting-elements-of-an-array-by-frequency-1587115621/1/?category[]=Hash&problemStatus=solved&page=1&query=category[]HashproblemStatussolvedpage1) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Sorting-Elements-of-an-Array-by-Frequency.cpp) | _O(nlogn)_ | _O(n)_  | Medium | |
 4 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Substring-Without-Repeating-Characters.cpp) |_O(n)_ | _O(n)_ | Medium |:star2:|
 5 | [Partition Labels](https://leetcode.com/problems/partition-labels/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Partition-Labels.cpp) |_O(n)_ | _O(n)_ | Medium | |
+6 | [Longest Sub-Array with Sum K](https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Sub-Array-with-Sum-K.cpp) |_O(n)_ | _O(n)_ | Medium | |
 
 
 ## Graph
@@ -265,9 +266,19 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 
 
 
-## Bit Magic
+## Sliding Window
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
+
+1 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Minimum-Window-Substring.cpp) |_O(n)_ | _O(n)_ | Hard |Variable Size Sliding Window |
+2 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Substring-Without-Repeating-Characters.cpp) |_O(n)_ | _O(n)_ | Medium | Variable Size Sliding Window |
+3 | [Pick Toys](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Pick-Toys.cpp) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Pick-Toys.cpp) |_O(n)_ | _O(n)_ | Medium | Variable Size Sliding Window |
+4 | [Longest K unique characters substring](https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-K-unique-characters-substring.cpp) |_O(n)_ | _O(n)_ | Easy | Variable Size Sliding Window |
+5 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Sliding-Window-Maximum.cpp) |_O(n)_ | _O(k)_ | Hard | Fixed Size Sliding Window |
+6 | [Count Occurences of Anagrams](https://practice.geeksforgeeks.org/problems/count-occurences-of-anagrams5839/1) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Count-Occurences-of-Anagrams.cpp) |_O(n)_ | _O(k)_ | Medium | Fixed Size Sliding Window |
+7 | [First negative integer in every window of size k](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1#) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/First-negative-every-window-of-size-k.cpp) |_O(n)_ | _O(k)_ | Easy | Fixed Size Sliding Window |
+8 | [Max Sum Subarray of size K](https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Max-Sum-Subarray-of-size-K.cpp) |_O(n)_ | _O(1)_ | Basic | Fixed Size Sliding Window |
+
 
 
 
