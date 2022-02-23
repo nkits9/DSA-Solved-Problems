@@ -22,7 +22,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 * [Divide and Conquer](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Divide-and-Conquer)
 * [Backtracking](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Backtracking)
 * [Dynamic Programming](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Dynamic-Programming)
-* [Bit Magic](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Bit-Magic)
+* [Sliding Window](https://github.com/nkits9/DSA-Solved-Problems#sliding-window)
 
 ## Array
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
