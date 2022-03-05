@@ -23,7 +23,6 @@ void c_p_c() {
 #endif
 }
 
-sdalkfnldskxanfklsndalkfnsaknflkasnflknsalkfnsa
 
 int main() {
     IOS;
