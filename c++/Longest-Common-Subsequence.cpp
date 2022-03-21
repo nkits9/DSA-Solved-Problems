@@ -58,8 +58,8 @@ public:
 
 // Print LCS:
 
-string printLCS(vvi &dp) {
-    int i=dp.size(), j=dp[0].size();
+string printLCS(string s1, string s2, vvi dp) {
+    int i=dp.size()-1, j=dp[0].size()-1;
     string LCS = "";
 
     while(i > 0 && j > 0) {
