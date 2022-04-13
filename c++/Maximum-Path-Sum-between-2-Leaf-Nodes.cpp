@@ -1,21 +1,33 @@
-int maxPathSumUtil(Node *root, int &res) {
-    if (root == NULL) 
-        return 0;
-    if (!root->left && !root->right) 
-        return root->data;
+class Solution {
+public:
 
-    int ls = maxPathSumUtil(root->left, res);
-    int rs = maxPathSumUtil(root->right, res);
+    int maxPathSumUtil(Node* root, int &ans) {
+        if(root == NULL)    return 0;
 
-    if (root->left && root->right) {
-        res = max(res, ls + rs + root->data);
-        return max(ls, rs) + root->data;
+        if(!root->left && !root->right)
+            return root->data;
+        
+        int leftSum = maxPathSumUtil(root->left, ans);
+        int rightSum = maxPathSumUtil(root->right, ans);
+
+        if(!root->left)
+            return root->data + rightSum;
+        
+        if(!root->right)
+            return root->data + leftSum;
+
+        ans = max(ans, leftSum + rightSum + root->data);
+        
+        return root->data + max(leftSum, rightSum);
     }
-    return (!root->left) ? rs + root->data : ls + root->data;
-}
-
-int maxPathSum(Node *root) {
-    int res = INT_MIN;
-    maxPathSumUtil(root, res);
-    return res;
-}
+    
+    int maxPathSum(Node* root) {
+        int ans = INT_MIN;
+        int h = maxPathSumUtil(root, ans);
+        
+        if (!root->left || !root->right)
+            ans = max(ans, h);
+        
+        return ans;
+    }
+};
