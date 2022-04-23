@@ -1,41 +1,35 @@
-Node *minValueNode(Node* root) {
-    while(root->left !=NULL)
-        root = root->left;
-    return root;
-}
-
-Node* deleteNode(Node* root, int key){
-
-    if (root == NULL)   return root;
+class Solution {
+public:
     
-    if (key < root->data)
-        root->left = deleteNode(root->left, key);
+    TreeNode* findSuccessor(TreeNode *root) {
+        while(root->left != NULL) 
+            root = root->left;
+        return root;
+    }
     
-    else if (key > root->data)
-        root->right = deleteNode(root->right, key);
-    
-    else {
-        // node with only one child or no child 
-        if (root->left == NULL) {
-            struct Node *temp = root->right;
-            free(root);
-            return temp;
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if(root == NULL)    return root;
+        
+        if(key > root->val) 
+            root->right = deleteNode(root->right, key);
+        
+        else if(key < root->val)
+            root->left = deleteNode(root->left, key);
+        
+        else {
+            // node with only one child or no child 
+            if(root->left == NULL) 
+                return root->right;
+            
+            if(root->right == NULL) 
+                return root->left;
+            
+            // node with two children: Get the inorder successor (smallest in the right subtree)
+            TreeNode* temp = findSuccessor(root->right);
+            root->val = temp->val;
+            root->right = deleteNode(root->right, temp->val);            
         }
-        else if (root->right == NULL) {
-            struct Node *temp = root->left;
-            free(root);
-            return temp;
-        }
         
-        // node with two children: Get the inorder successor (smallest 
-        // in the right subtree) 
-        struct Node* temp = minValueNode(root->right);
-        
-        // Copy the inorder successor's content to this node
-        root->data = temp->data;
-        
-        // Delete the inorder successor
-        root->right = deleteNode(root->right, temp->data);
-    } 
-    return root;
-}
+        return root;
+    }
+};
