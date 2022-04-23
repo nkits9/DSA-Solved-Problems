@@ -1,11 +1,14 @@
-Node* LCA(Node *root, int n1, int n2) {
-    if(root == NULL)    return root;
-    
-    if(root->data > n1 && root->data > n2) 
-        return LCA(root->left, n1, n2);
-    
-    if(root->data < n1 && root->data < n2) 
-        return LCA(root->right, n1, n2);
-    
-    return root;
-}
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if(root == NULL)    return NULL;
+        
+        if(root->val > p->val && root->val > q->val)
+            return lowestCommonAncestor(root->left, p, q);
+        
+        if(root->val < p->val && root->val < q->val)
+            return lowestCommonAncestor(root->right, p , q);
+        
+        return root;
+    }
+};
