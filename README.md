@@ -128,9 +128,9 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 5 | [Delete a node from BST](https://leetcode.com/problems/delete-node-in-a-bst/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Delete-a-node-from-BST.cpp) | _O(H)_ | _O(H)_  | Medium | |
 6 | [Check for BST](https://leetcode.com/problems/validate-binary-search-tree/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Check-for-BST.cpp) | _O(n)_ | _O(H)_  | Medium | |
 7 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) |    [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Merge-Two-Binary-Trees.cpp) | _O(n)_ | _O(n)_  | Medium | |
-8 | [Largest BST](https://practice.geeksforgeeks.org/problems/largest-bst/1) |   |  |   | Medium | |
-9 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) |   |  |  | Medium | |
-10 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) |   |  |  | Medium | |
+8 | [Largest BST](https://practice.geeksforgeeks.org/problems/largest-bst/1) | [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Largest-BST.cpp) | _O(n)_ | _O(H)_  | Medium | |
+9 | [Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Balance-a-Binary-Search-Tree.cpp) | _O(n)_ | _O(n)_ | Medium | |
+10 | [Maximum Sum BST in Binary Tree](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/) | [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximum-Sum-BST-in-Binary-Tree.cpp) | _O(n)_ | _O(H)_ | Medium | |
 
 
 
