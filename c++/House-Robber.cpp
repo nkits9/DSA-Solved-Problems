@@ -1,4 +1,26 @@
-// Method 1 : Bottom-up Approach
+// Method 1 : Top-down Approach
+
+class Solution {
+public:
+    
+    int houseRob(int i, vector<int>& nums, vector<int>& dp) {
+        if(i < 0)   return 0;
+        
+        if(dp[i]!=-1)   return dp[i];
+        
+        dp[i] = max(houseRob(i-1, nums, dp), nums[i] + houseRob(i-2, nums, dp));
+        
+        return dp[i];
+    }
+    
+    int rob(vector<int>& nums) {
+        vector<int> dp(nums.size(), -1);
+        return houseRob(nums.size()-1, nums, dp);
+    }
+};
+
+
+// Method 2 : Bottom-up Approach
 
 class Solution {
 public:
@@ -8,7 +30,6 @@ public:
         
         if(n == 0)  return 0;
         if(n == 1)  return nums[0];
-        if(n == 2)  return max(nums[0], nums[1]);
         
         int dp[n];
         dp[0] = nums[0]; 
@@ -19,41 +40,5 @@ public:
         }
         
         return dp[n-1];
-    }
-};
-
-
-
-
-// Method 2 : Top-down Approach
-
-class Solution {
-public:
-    
-    int houseRob(vector<int> &nums, int k, vector<int> &dp) {
-        int n = nums.size();
-        if(k>=n)    return 0; 
-        
-        if(dp[k+2] != -1) {
-            return dp[k];
-        }
-        
-        int ans = 0;
-        int start = (k>=0) ? nums[k] : 0;
-        
-        for(int i=k+2; i<n; i++) {
-            if(dp[i+2] != -1) {
-                ans = max(ans, dp[i+2]);
-            else 
-                ans = max(ans, houseRob(nums, i, dp)); 
-            }
-        
-        dp[k+2] = start + ans;
-        return dp[k+2];
-    }
-    
-    int rob(vector<int>& nums) {
-        vector<int> dp(nums.size()+2, -1);
-        return houseRob(nums, -2, dp);
     }
 };
