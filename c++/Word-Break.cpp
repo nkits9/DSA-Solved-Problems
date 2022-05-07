@@ -10,12 +10,15 @@ public:
             return dp[start];
         }
 
-        for(int i=1; start+i <= s.size(); i++) {
-            string word = s.substr(start, i);
+        for(int i=start+1; i<=s.size(); i++) {
+            
+            // break at i => [start, i) + [i, s.size())
+            
+            string word = s.substr(start, i-start);
 
             if(dict.find(word) != dict.end()) {
-                dp[start+i] = checkWordBreak(start+i, s, dict, dp);
-                if(dp[start+i]==1)  return true;
+                dp[i] = checkWordBreak(i, s, dict, dp);
+                if(dp[i])  return true;
             }
 
         }
