@@ -247,84 +247,44 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 1 | [0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/0-1-Knapsack-Problem.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
 2 | [Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1/) |   |  |  | Medium | |
 3 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-
 4 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
-
 5 | [Count of Subsets Sum](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/) |   |  |  | Medium | |
-
 6 | [Minimum Subset Sum Difference](https://practice.geeksforgeeks.org/problems/minimum-sum-partition3317/1/) |   |  |  | Hard | |
-
 7 | [Count the number of subsets with given difference](https://youtu.be/ot_XBHyqpFc) |   |  |  | Medium | |
-
 8 | [Rod Cutting Problem](https://practice.geeksforgeeks.org/problems/rod-cutting0840/1/) |   |  |  | Easy | |
-
 9 | [Coin Change - I](https://leetcode.com/problems/coin-change/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Coin-Change.cpp) |_O(S*n)_ | _O(n)_ | Medium | |
-
 10 | [Coin Change - II](https://leetcode.com/problems/coin-change-2/) |   |  |  | Medium | |
-
 11 | [Longest Repeating Subsequence](https://practice.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) |   |  |  | Medium | |
-
 12 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Common-Subsequence.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-
 13 | [Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/) |   |  |  | Hard | |
-
 14 | [Longest Common Substring](https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1/) |   |  |  | Medium | |
-
 15 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Palindromic-Substring.cpp) |_O(n^2)_ | _O(1)_ | Medium | |
-
 16 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Palindromic-Subsequence.cpp) |_O(n^2)_ | _O(n^2)_ | Medium | |
-
 17 | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Minimum-Insertion-Steps-to-Make-a-String-Palindrome.cpp) |_O(n^2)_ | _O(n^2)_ | Hard | |
-
 18 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Longest-Increasing-Subsequence.cpp) |_O(n^2)_ | _O(n^2)_ | Medium | |
-
 19 | [Minimum number of deletions and insertions](https://leetcode.com/problems/delete-operation-for-two-strings/) |   |  |  | Medium | |
-
 20 | [Edit Distance](https://leetcode.com/problems/edit-distance/description/) |   |  |  | Hard | |
-
 21 | [Matrix Chain Multiplication](https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1/) |   |  |  | Hard | |
-
 22 | [Palindrome Partitioning II](https://leetcode.com/problems/palindrome-partitioning-ii/) |   |  |  | Hard | |
-
 23 | [Evaluate Expression to True](https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1/#) |   |  |  | Hard | |
-
 24 | [Egg Dropping Problem](https://leetcode.com/problems/super-egg-drop/) |   |  |  | Hard | |
-
 25 | [Burst Balloon](https://leetcode.com/problems/burst-balloons/) |   |  |  | Hard | |
-
 26 | [House Robber](https://leetcode.com/problems/house-robber/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber.cpp) | _O(n)_ | _O(n)_ | Easy | |
-
 27 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/House-Robber-II.cpp) | _O(n)_ | _O(n)_ | Medium | |
-
 28 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) |   |  |  | Medium | |
-
 29 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Unique-Paths-2.cpp) |_O(m*n)_ | _O(1)_ | Medium | |
-
-
 30 | [Frog Jump](https://leetcode.com/problems/frog-jump/) |   |  |  | Hard | |
-
 31 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/) |   |  |  | Medium | |
-
 32 | [Cherry Pickup](https://leetcode.com/problems/cherry-pickup/) |   |  |  | Hard | |
-
 33 | [Minimum Falling path sum](https://leetcode.com/problems/minimum-falling-path-sum/) |   |  |  | Medium | |
-
 34 | [Triangle](https://leetcode.com/problems/triangle/) |   |  |  | Medium | |
-
 35 | [Maximal Square](https://leetcode.com/problems/maximal-square/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Maximal-Square.cpp) | _O(n*m)_ | _O(n*m)_ | Medium | |
-
 36 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Trapping-Rain-Water.cpp) |_O(n)_ | _O(n)_ | Hard | |
-
 37 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Perfect-Squares.cpp) | _O(n*sqrt(n))_ | _O(1)_ | Medium |  |
-
 38 | [Word Break](https://leetcode.com/problems/word-break/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Word-Break.cpp) |_O(n^2)_ | _O(n)_ | Medium | |
-
 39 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) |   |  |  | Medium | |
-
 40 | [Unique BST](https://leetcode.com/problems/unique-binary-search-trees/) |   |  |  | Medium | |
-
 41 | [Maximum Profit in Job Scheduling](https://leetcode.com/problems/maximum-profit-in-job-scheduling/) |   [Solution](https://github.com/nkits9/DSA-Solved-Problems/blob/master/c%2B%2B/Maximum-Profit-in-Job-Scheduling.cpp) |_O(n^2)_ | _O(n)_ | Hard | |
-
 42 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Best-Time-to-Buy-and-Sell-Stock.cpp) | _O(n)_ | _O(1)_ | Easy | Kadane's Algorithm |
 
 
