@@ -245,9 +245,7 @@ The code is merely a snippet (as solved on GFG) & hence is not executable in a c
 |  #  | Title        |  Solution     |  Time           | Space           | Difficulty    | Tag          |
 |-----|---------------- | --------------- | --------------- | --------------- | ------------- |--------------|
 1 | [0 - 1 Knapsack Problem](https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem/0) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/0-1-Knapsack-Problem.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
-
 2 | [Subset Sum Problem](https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1/) |   |  |  | Medium | |
-
 3 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Partition-Equal-Subset-Sum.cpp) | _O(2^n)_ | _O(m*n)_ | Medium | |
 
 4 | [Target Sum](https://leetcode.com/problems/target-sum/) |   [Solution](https://github.com/nkits9/GeeksForGeeks-Solved-Problems/blob/master/c%2B%2B/Target-Sum.cpp) |_O(2^n)_ | _O(m*n)_ | Medium | |
