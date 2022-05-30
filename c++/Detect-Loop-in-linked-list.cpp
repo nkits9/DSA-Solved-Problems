@@ -5,7 +5,7 @@ struct Node {
         data = x;
         next = NULL;
     }
-}
+};
 
 bool detectLoop(Node* head) {
     Node *slow = head;
