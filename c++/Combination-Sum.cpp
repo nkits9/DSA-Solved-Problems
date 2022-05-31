@@ -3,8 +3,7 @@ typedef vector<vi> vvi;
 
 class Solution {
   public:
-    //Function to return a list of indexes denoting the required 
-    //combinations whose sum is equal to given number.
+    //Function to return a list of indexes denoting the required combinations whose sum is equal to given number.
     
     void findCombination(vector<int> &arr, int start, int n, int sum, vvi &result, vi curr) {
         if(sum < 0) {
@@ -22,17 +21,12 @@ class Solution {
             }
         }
         return;
-    
     }
     
     vector<vector<int>> combinationSum(vector<int> &arr, int target) {
-        
         sort(arr.begin(), arr.end());
-        
         vvi res; vi curr;
-        
         findCombination(arr, 0, arr.size(), target, res, curr);
-        
         return res;
     }
 };
