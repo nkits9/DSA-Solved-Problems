@@ -1,21 +1,23 @@
-void DFSUtil(int i, vector<int> adj[], vector<int> &vis, vector<int> &res) {
-    vis[i] = true;
+void dfs(int i, vector<int> adj[], vector<bool> &vis, vector<int> &res) {
     res.push_back(i);
-    
+
     for(int v : adj[i]) {
         if(!vis[v]) {
-            DFSUtil(v, adj, vis, res);
+            vis[v] = true;
+            dfs(v, adj, vis, res);
         }
     }
 }
 
-vector<int> dfs(vector<int> adj[], int n) {
+
+vector<int>dfsOfGraph(int V, vector<int> adj[]) {
+    vector<bool> vis(V, false);
     vector<int> res;
-    vector<bool> vis(n, false);
-    
-    for(int i=0; i<n; i++) {
+
+    for(int i=0; i<V; i++) {
         if(!vis[i]) {
-            DFSUtil(i, adj, vis, res);
+            vis[i] = true;
+            dfs(i, adj, vis, res);
         }
     }
     
