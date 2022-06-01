@@ -2,42 +2,43 @@
 // Method 1 : 
 
 int shortestDistance(int N, int M, vector<vector<int>> mat, int X, int Y) {
-        if(mat[0][0] == 0)  return -1;
-        
-        int n = mat.size(), m =  mat[0].size();
-        queue<pair<int, int>> q;
-        q.push({0, 0});
-        mat[0][0] = -1;  // mark (0,0) as visited
-        
-        int levelCount = 0;
-        
-        int row[4] = {0, 1, 0, -1};
-        int col[4] = {1, 0, -1, 0};
-        
-        while(!q.empty()) {
-            int nodeCount = q.size();
-            while(nodeCount--) {
-                pair<int, int> temp = q.front();
-                q.pop();
-                
-                if(temp.first == X && temp.second == Y)
-                    return levelCount;
-                    
-                for(int k=0; k<4; k++) {
-                    int x = row[k] + temp.first;
-                    int y = col[k] + temp.second;
-                    
-                    if(x>=0 && x<n && y>=0 && y<m && (mat[x][y]==1)) {
-                        q.push({x, y});
-                        mat[x][y] = -1; 
-                    }
-                }    
-            }
-            levelCount++;
+    if(mat[0][0] == 0)  return -1;
+
+    int n = mat.size(), m =  mat[0].size();
+    queue<pair<int, int>> q;
+    q.push({0, 0});
+    mat[0][0] = -1;  // mark (0,0) as visited
+
+    int levelCount = 0;
+
+    int row[4] = {0, 1, 0, -1};
+    int col[4] = {1, 0, -1, 0};
+
+    while(!q.empty()) {
+        int nodeCount = q.size();
+        while(nodeCount--) {
+            int a = q.front().first;
+            int b = q.front().second;
+            q.pop();
+
+            if(a == X && b == Y)
+                return levelCount;
+
+            for(int k=0; k<4; k++) {
+                int x = a + row[k];
+                int y = b + col[k];
+
+                if(x>=0 && x<n && y>=0 && y<m && (mat[x][y]==1)) {
+                    q.push({x, y});
+                    mat[x][y] = -1; 
+                }
+            }    
         }
-        
-        return -1;
+        levelCount++;
     }
+
+    return -1;
+}
 
 
 
