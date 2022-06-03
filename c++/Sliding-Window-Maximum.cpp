@@ -11,11 +11,11 @@ public:
 
             q.push_back(i); 
             
-            if(q.front() <= i-k) {
+            if(i >= k && q.front() <= i-k) {
                 q.pop_front();
             }
 
-            if(i+1 >= k) {
+            if(i >= k-1) {
                 res.push_back(nums[q.front()]);
             }
         }
