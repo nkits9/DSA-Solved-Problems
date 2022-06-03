@@ -30,9 +30,6 @@ public:
     }
     
     int maximalRectangle(vector<vector<char> > &matrix) {
-        if(matrix.empty()){
-            return 0;
-        }
         int maxRec = 0;
         vector<int> height(matrix[0].size(), 0);
         for(int i = 0; i < matrix.size(); i++){
