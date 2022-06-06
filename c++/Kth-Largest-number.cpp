@@ -16,14 +16,14 @@ public:
 
 
     int quickSelect(vector<int> &arr, int l, int r, int k) {
-        int pivot = partition(arr, l, r);
+        int pi = partition(arr, l, r);  // pi = pivot index
 
-        if(k==pivot)    return arr[k];
+        if(k==pi)    return arr[k];
 
-        if(k > pivot)  {
-            return quickSelect(arr, pivot+1, r, k);
+        if(k > pi)  {
+            return quickSelect(arr, pi+1, r, k);
         } else {
-            return quickSelect(arr, l, pivot-1, k);
+            return quickSelect(arr, l, pi-1, k);
         }
     }
     
