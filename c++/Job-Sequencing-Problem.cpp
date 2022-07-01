@@ -1,50 +1,36 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define endl "\n"
 
-struct Job {
-    int id; 
-    int deadline;
-    int profit;
+struct Job { 
+    int id;	 // Job Id 
+    int dead; 	 // Deadline of job 
+    int profit;  // Profit if job is over before or on deadline 
 };
 
-bool comparator(Job a, Job b) {
-    return a.profit > b.profit;
-}
 
-void printJobScheduling(Job *a, int n) {
-    bool slot[n];
-    for(int i=0; i<n; i++)  slot[i]=true;;
+class Solution {
+    public:
     
-    sort(a, a+n, comparator);
+    static bool comparator(Job A, Job B) {
+        return A.profit > B.profit;
+    }
     
-    int task = 0, profit = 0;
-    for(int i=0; i<n; i++) {
-        for(int j=min(n, a[i].deadline)-1; j>=0; j--) {
-            if(slot[j] != false) {
-                profit += a[i].profit;
-                task++;
-                slot[j] = false;
-                break;
+    vector<int> JobScheduling(Job arr[], int n) { 
+        vector<bool> slot(100, true);  //  1 <= Deadline <= 100
+        
+        sort(arr, arr+n, comparator);   // sort in decreasing order of their profit
+        
+        int task = 0, profit = 0;
+        
+        for(int i=0; i<n; i++) {
+            for(int j=arr[i].dead; j>0; j--) {
+                if(slot[j] != false) {
+                    task++;
+                    profit += arr[i].profit;
+                    slot[j] = false;
+                    break;
+                }
             }
         }
-    }
-    cout << task << " " << profit << endl;
-}
-
-int main() {
-	IOS;
-	int t, n; 
-	cin >> t;
-	while(t--) {
-	    cin >> n;
-	    Job a[n];
-	    for(int i=0; i<n; i++) {
-	        cin >> a[i].id;
-	        cin >> a[i].deadline;
-	        cin >> a[i].profit; 
-	    }
-	    printJobScheduling(a, n);
-	}
-}
+        
+        return {task, profit};
+    } 
+};
