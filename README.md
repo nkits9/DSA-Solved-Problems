@@ -9,19 +9,19 @@ This repository can be used as help for those who are new to competitive program
 The code is merely a snippet (as solved on GFG) & hence is not executable in a c++ compiler.
 
 ## Topic-Wise
-* [Array](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Array)
-* [String](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#String)
-* [Linked List](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Linked-List)
-* [Stack and Queue](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Stack-and-Queue)
+* [Array](https://github.com/nkits9/DSA-Solved-Problems#array)
+* [String](https://github.com/nkits9/DSA-Solved-Problems#string)
+* [Linked List](https://github.com/nkits9/DSA-Solved-Problems#linked-list)
+* [Stack and Queue](https://github.com/nkits9/DSA-Solved-Problems#stack-and-queue)
 * [Binary Tree](https://github.com/nkits9/DSA-Solved-Problems#binary-tree)
-* [Heap](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Heap)
-* [Recursion](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Recursion)
-* [Hashing](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Hashing)
-* [Graph](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Graph)
-* [Greedy](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Greedy)
-* [Divide and Conquer](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Divide-and-Conquer)
-* [Backtracking](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Backtracking)
-* [Dynamic Programming](https://github.com/nkits9/GeeksForGeeks-Solved-Problems#Dynamic-Programming)
+* [Binary Search Tree](https://github.com/nkits9/DSA-Solved-Problems#binary-search-tree)
+* [Heap](https://github.com/nkits9/DSA-Solved-Problems#heap)
+* [Hashing](https://github.com/nkits9/DSA-Solved-Problems#hashing)
+* [Graph](https://github.com/nkits9/DSA-Solved-Problems#graph)
+* [Greedy](https://github.com/nkits9/DSA-Solved-Problems#greedy)
+* [Divide and Conquer](https://github.com/nkits9/DSA-Solved-Problems#divide-and-conquer)
+* [Backtracking](https://github.com/nkits9/DSA-Solved-Problems#backtracking)
+* [Dynamic Programming](https://github.com/nkits9/DSA-Solved-Problems#dynamic-programming)
 * [Sliding Window](https://github.com/nkits9/DSA-Solved-Problems#sliding-window)
 
 ## Array
