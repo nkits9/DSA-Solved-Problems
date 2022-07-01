@@ -10,8 +10,8 @@ int getMinDiff(int arr[], int n, int k) {
 	for(int i=1; i<n; i++) {
 		if(arr[i] - k < 0)  continue;
 
-		tmin = min(small, arr[i] - k); // Minimum element when we add k to whole array
-		tmax = max(big, arr[i-1] + k); // Maximum element when we subtract k from whole array
+		tmin = min(small, arr[i] - k);
+		tmax = max(big, arr[i-1] + k);
 		ans = min(ans, tmax - tmin); 
 	}
 
