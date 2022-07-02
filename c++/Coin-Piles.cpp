@@ -47,5 +47,5 @@ int minSteps(int arr[], int n, int k) {
 		ans = min(removedPile + (actualSum - permissibleSum), ans);
 	}
 
-	return ans;
+	return ans; 
 }
