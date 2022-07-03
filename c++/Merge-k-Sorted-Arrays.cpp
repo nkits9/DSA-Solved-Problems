@@ -86,3 +86,4 @@ int *mergeKArrays(int arr[][N], int k) {
  
 	return output;
 }
+
