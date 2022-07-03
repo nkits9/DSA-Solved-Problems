@@ -83,6 +83,6 @@ int *mergeKArrays(int arr[][N], int k) {
 		// Replace root with next element of array
 		heap.replaceMin(root);
 	}
-
+ 
 	return output;
 }
