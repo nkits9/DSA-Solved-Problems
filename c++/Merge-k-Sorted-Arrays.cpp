@@ -1,3 +1,53 @@
+// Method 1: using priority queue stl
+
+#define pii pair<int,int>
+
+class Solution {
+    public:
+    //Function to merge k sorted arrays.
+    vector<int> mergeKArrays(vector<vector<int>> a, int k) {
+        vector<int> idx(k, 0);      // stores indexes for all k arrays, initially it is 0 for all.
+        
+        priority_queue<pii, vector<pii>, greater<pii>> pq;
+
+        for(int i=0; i<k; i++) {
+            pq.push({a[i][0], i});
+        }
+        
+        vector<int> res;
+        
+        while(!pq.empty()) {
+            pii x = pq.top();
+            pq.pop();
+    
+            int num = x.first;
+            int arrayIdx = x.second;
+            int currIdx = idx[arrayIdx];
+    
+            if(currIdx + 1 < a[arrayIdx].size()) {
+                pq.push({a[arrayIdx][currIdx+1], arrayIdx});
+            }
+    
+            res.push_back(num);
+            idx[arrayIdx]++;
+        }
+        
+        return res;
+    }
+};
+
+
+
+
+
+// -------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+// Method 2: Building MinHeap from scratch
+
 int n;
 // A min heap node
 struct MinHeapNode {
@@ -63,7 +113,7 @@ int *mergeKArrays(int arr[][N], int k) {
 		harr[i].i = i; // index of array
 		harr[i].j = 1; // Index of next element to be stored from array
 	}
-	
+
 	MinHeap heap(harr, k); // Create the heap
 
 	// Now one by one get the minimum element from minheap and replace it with next element of its array.
