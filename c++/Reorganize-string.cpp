@@ -36,7 +36,7 @@ public:
         }
         
         if(!pq.empty()) {
-            if(pq.top().first > 1)     // curr_ele_freq > 1 and no other elements present
+            if(pq.top().first > 1)     // single element present with freq > 1
                 return "";
             else
                 res += pq.top().second;
