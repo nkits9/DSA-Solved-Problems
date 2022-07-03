@@ -62,8 +62,8 @@ int *mergeKArrays(int arr[][N], int k) {
 		harr[i].element = arr[i][0]; // Store the first element
 		harr[i].i = i; // index of array
 		harr[i].j = 1; // Index of next element to be stored from array
-
 	}
+	
 	MinHeap heap(harr, k); // Create the heap
 
 	// Now one by one get the minimum element from minheap and replace it with next element of its array.
