@@ -32,4 +32,4 @@ int main() {
 		int n = str.size();
 		cout << longestValid(str, n) << endl;
 	}
-}
+} 
