@@ -5,29 +5,34 @@ struct petrolPump {
 };
 
 // Method 1 : Using Queue
-int tour(petrolPump p[],int n) {
+int tour(petrolPump p[], int n) {
     queue<int> q;
-    int i = 0;
-    while(i<n) {
+    for(int i=0; i<n; i++) {
         q.push(p[i].petrol - p[i].distance);
-        i++;
     }
 
-    int curr=0, start=0; i=0;
+    int currPetrol = 0, i = 0, start = 0;
+
     while(!q.empty()) {
-        curr += q.front();
+        currPetrol += q.front();
         q.pop();
-        i++;
-        if(curr < 0) {
-            q.push(curr);
-            curr = 0;
-            start = i;
+
+        if(currPetrol < 0) {
+            start = i+1;
+            q.push(currPetrol);
+            currPetrol = 0;
+            i++;
         }
-        if(start >= n)  return -1;
+        else {
+            i++;
+        }
+
+        if(start >= n)  return -1;      // no starting point found
     }
 
     return start;
 }
+
 
 //Method 2 :
 int tour(petrolPump p[],int n) {
