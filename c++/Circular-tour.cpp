@@ -16,7 +16,6 @@ int tour(petrolPump p[], int n) {
     while(!q.empty()) {
         currPetrol += q.front();
         q.pop();
-
         if(currPetrol < 0) {
             start = i+1;
             q.push(currPetrol);
@@ -26,10 +25,8 @@ int tour(petrolPump p[], int n) {
         else {
             i++;
         }
-
         if(start >= n)  return -1;      // no starting point found
     }
-
     return start;
 }
 
