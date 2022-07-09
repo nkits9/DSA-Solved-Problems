@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     string minRemoveToMakeValid(string s) {
         int n = s.size();
         stack<int> st;
@@ -34,5 +33,4 @@ public:
         }
         return ans;
     }
-
 };
