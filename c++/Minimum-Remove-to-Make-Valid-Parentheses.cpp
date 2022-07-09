@@ -1,32 +1,38 @@
 class Solution {
 public:
+
     string minRemoveToMakeValid(string s) {
-        stack<pair<char, int>> stack;
-        for(int i=0; i<s.size(); i++) {
-            
-            if(s[i] == '(') {
-                stack.push({'(', i});
+        int n = s.size();
+        stack<int> st;
+        
+        for(int i=0; i<n; i++) {
+            char c = s[i];
+            if(c == '(') {
+                st.push(i);
             }
-            if(s[i] == ')') {
-                if(!stack.empty() && stack.top().first == '(') {
-                    stack.pop();
-                } else {
-                    stack.push({')', i});
+            else if(c == ')') {
+                if(!st.empty() && s[st.top()] == '(') {
+                    st.pop();
+                }
+                else {
+                    st.push(i);
                 }
             }
         }
         
-        while(!stack.empty()) {
-            s[stack.top().second] = '-';
-            stack.pop();
-        }
-        string result = "";
-        for(int i=0; i<s.size(); i++) {
-            if(s[i] != '-') {
-                result += s[i];
-            }
+        // -> Now stack contains indexes which should be removed.
+        while(!st.empty()) {
+            s[st.top()] = '#';              // we need to remove this char from string, for now mark it as #.
+            st.pop();
         }
         
-        return result;
-     }
+        string ans="";
+        for(int i=0;i<s.length();++i){
+            if(s[i] != '#') {              // append not marked character to the end of "ans"
+                ans.push_back(s[i]);
+            }
+        }
+        return ans;
+    }
+
 };
