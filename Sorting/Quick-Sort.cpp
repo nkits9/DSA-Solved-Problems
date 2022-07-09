@@ -2,19 +2,21 @@
 #include <bits/stdc++.h> 
 using namespace std;  
   
-  
-int partition (int arr[], int l, int r) {  
-    int pivot = arr[r]; // pivot  
-    int i = (l - 1); // Index of smaller element  
-  
-    for (int j = l; j <= r; j++) {    
-        if (arr[j] <= pivot) {  
-            i++; // increment index of smaller element  
-            swap(arr[i], arr[j]);  
-        }  
-    }    
-    return i;  
-}  
+
+int partition (int arr[], int low, int high) {
+   int pivot = arr[high];
+   int i = low, j = low;
+
+   while(j <= high) {
+        if(arr[j] <= pivot) {
+            swap(arr[i], arr[j]);
+            i++;  // increment index of smaller element  
+        }
+        j++;
+    }
+    return i-1;
+}
+    
 
 void quickSort(int arr[], int l, int r) {  
     if (l < r) {  
