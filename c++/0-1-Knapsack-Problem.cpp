@@ -46,51 +46,25 @@ int main() {
 */
 
 // Method-2 : Top Down Approach
-#include <bits/stdc++.h>
-using namespace std;
-#define IOS ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
-#define endl "\n"
-typedef vector<int> vi;
-typedef vector<vi> vvi;
 
-int knapsack(int val[], int wt[], int W, int i, int** dp) {
-    if(i<0)     return 0;
-    if(dp[i][W] != -1)    return dp[i][W];
-    
-    if(W >= wt[i]) {
-        dp[i][W] = max(val[i] + knapsack(val, wt, W-wt[i], i-1, dp),
-                        knapsack(val, wt, W, i-1, dp));
-    } else {
-        dp[i][W] = knapsack(val, wt, W, i-1, dp);
+//Function to return max value that can be put in knapsack of capacity W.
+int solve(int W, int wt[], int val[], int n, vector<vector<int>> &dp) {
+    if(n==0) {
+        return 0;
     }
-    
-    return dp[i][W];
+
+    if(dp[n-1][W] != -1)    return dp[n-1][W];
+
+    if(W >= wt[n-1]) 
+        dp[n-1][W] = max(val[n-1] + solve(W-wt[n-1], wt, val, n-1, dp), solve(W, wt, val, n-1, dp));
+    else 
+        dp[n-1][W] = solve(W, wt, val, n-1, dp);
+
+    return dp[n-1][W];
 }
 
 
-int main() { 
-    IOS;
-    // Code starts from here:
-    int t; cin >> t;
-    while(t--) {
-        int n, W; 
-        cin >> n >> W;
-        int val[n], wt[n];
-        for(int i=0; i<n; i++) 
-            cin >> val[i];
-        for(int i=0; i<n; i++) 
-            cin >> wt[i];
-            
-        int** dp; 
-        dp = new int*[n]; 
-  
-        for (int i = 0; i < n; i++) 
-            dp[i] = new int[W + 1]; 
-  
-        for (int i = 0; i < n; i++) 
-            for (int j = 0; j < W + 1; j++) 
-                dp[i][j] = -1; 
-
-        cout << knapsack(val, wt, W, n-1, dp) << endl; 
-    } 
-} 
+int knapSack(int W, int wt[], int val[], int n) { 
+    vector<vector<int>> dp(n, vector<int>(W+1, -1));
+    return solve(W, wt, val, n, dp);
+}
