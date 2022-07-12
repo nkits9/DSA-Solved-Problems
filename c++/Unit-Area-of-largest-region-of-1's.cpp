@@ -2,10 +2,8 @@ typedef vector<int> vi;
 typedef vector<vi> vvi;
 
 class Solution {
-    
-    public:
-    //Function to find unit area of the largest region of 1s.
-    
+    public:   
+     
     int row[8] = {0, 1, 1, 1, 0, -1, -1 , -1};
     int col[8] = {1, 1, 0, -1, -1, -1, 0, 1};
     
