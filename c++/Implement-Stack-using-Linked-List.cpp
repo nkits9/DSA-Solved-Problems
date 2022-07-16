@@ -21,7 +21,7 @@ class MyStack {
     }
 
     public :
-    void MyStack ::push(int x) {
+    void push(int x) {
         if(top==NULL) {
             top = new StackNode(x);
         }
@@ -33,7 +33,7 @@ class MyStack {
     }
 
     public:
-    int MyStack ::pop() {
+    int pop() {
         if(top==NULL)   return -1;
 
         StackNode *temp = top->next;
