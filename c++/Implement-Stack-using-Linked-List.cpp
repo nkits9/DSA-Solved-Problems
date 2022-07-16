@@ -10,7 +10,6 @@ struct StackNode
     }
 };
 
-//Structure of MyStack
 class MyStack {
     private:
     StackNode *top;
