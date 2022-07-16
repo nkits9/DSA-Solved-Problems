@@ -1,14 +1,13 @@
 //Structure of the node of the stack.
-struct StackNode
-{
+struct StackNode {
     int data;
     StackNode *next;
-    StackNode(int a)
-    {
+    StackNode(int a) {
         data = a;
         next = NULL;
     }
 };
+
 
 class MyStack {
     private:
