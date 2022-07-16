@@ -12,35 +12,35 @@ struct StackNode
 
 //Structure of MyStack
 class MyStack {
-private:
-StackNode *top;
-public :
-    void push(int);
-    int pop();
+    private:
+    StackNode *top;
+
+    public:
     MyStack() {
         top = NULL;
     }
-};
 
-void MyStack ::push(int x) {
-    if(top==NULL) {
-        top = new StackNode(x);
+    public :
+    void MyStack ::push(int x) {
+        if(top==NULL) {
+            top = new StackNode(x);
+        }
+        else {
+            StackNode* temp = new StackNode(x);
+            temp->next = top;
+            top = temp;
+        }
     }
-    else {
-        StackNode* temp = new StackNode(x);
-        temp->next = top;
+
+    public:
+    int MyStack ::pop() {
+        if(top==NULL)   return -1;
+
+        StackNode *temp = top->next;
+        int val = top->data;
+        delete(top);
         top = temp;
+
+        return val;
     }
-}
-
-
-int MyStack ::pop() {
-    if(top==NULL)   return -1;
-    
-    StackNode *temp = top->next;
-    int val = top->data;
-    delete(top);
-    top = temp;
-    
-    return val;
 }
