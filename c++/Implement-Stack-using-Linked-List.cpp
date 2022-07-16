@@ -20,7 +20,7 @@ class MyStack {
         top = NULL;
     }
 
-    public :
+    public:
     void push(int x) {
         if(top==NULL) {
             top = new StackNode(x);
