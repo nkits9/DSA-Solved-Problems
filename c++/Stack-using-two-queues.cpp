@@ -9,7 +9,7 @@ public:
 };
  
 
-//Function to push an element into stack using two queues.
+//Function to push an element into stack using two queues
 void QueueStack :: push(int x) {
     while(!q1.empty()) {
         q2.push(q1.front());
@@ -22,7 +22,7 @@ void QueueStack :: push(int x) {
     }
 }
 
-//Function to pop an element from stack using two queues. 
+//Function to pop an element from stack using two queues
 int QueueStack :: pop() {
     if(!q1.empty()) {
         int temp = q1.front();
